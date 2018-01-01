@@ -18,3 +18,7 @@ Optionally you may download JetPack to extract CUDA .deb packages or download th
 * [How to build an image and flash into eMMC](docs/README.00-flashing.md)
 * [How to configure a fresh install](docs/README.01-configure.md)
 * [How to develop and update board software](docs/README.02-development.md)
+
+## Real-Time Patches and L4T Kernel
+
+## CPU & GPU Performance Comparison (RT & non-RT)
