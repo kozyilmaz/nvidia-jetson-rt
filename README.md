@@ -21,6 +21,7 @@ $ mkdir -p $HOME/nvidia/docs
 $ tar -xvf NVIDIA_Tegra_Linux_Driver_Package.tar -C $HOME/nvidia/docs
 $ sudo tar -xvf Tegra186_Linux_R28.1.0_aarch64.tbz2
 $ sudo tar -xvf Tegra_Linux_Sample-Root-Filesystem_R28.1.0_aarch64.tbz2 -C $HOME/nvidia/Linux_for_Tegra/rootfs
+$ cd $HOME/nvidia/Linux_for_Tegra
 $ sudo ./apply_binaries.sh
 # put the board in recovery mode (RECOVERY FORCE+RESET)
 $ sudo ./flash.sh -t jetson-tx2 mmcblk0p1
