@@ -1,0 +1,8 @@
+#!/bin/sh
+# toolchain flags
+export BSPTOOLCHAIN=$HOME/nvidia/install/bin
+export PATH=${BSPTOOLCHAIN}:${PATH}
+# kernel flags
+export ARCH=arm64
+export CROSS_COMPILE=aarch64-unknown-linux-gnu-
+export TEGRA_KERNEL_OUT=$HOME/nvidia/tegra-jetson-tx2-kernel
