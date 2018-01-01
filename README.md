@@ -3,7 +3,7 @@
 ## NVIDIA Jetson TX2 Configuration
 Visit [Nvidia L4T download directory](https://developer.nvidia.com/embedded/linux-tegra) for the list of packages  
 Latest stable release at the time for Jetson TX2 platform is "L4T 28.1 - Production Version"  
-Download all packages to `$HOME/nvidia`
+Download all packages to `$HOME/nvidia`, rest of the document assumes that
 ```
 1. NVIDIA_Tegra_Linux_Driver_Package.tar : Documentation
 2. Tegra186_Linux_R28.1.0_aarch64.tbz2 : Jetson TX2 64-bit Driver Package
@@ -23,6 +23,7 @@ $ sudo tar -xvf Tegra186_Linux_R28.1.0_aarch64.tbz2
 $ sudo tar -xvf Tegra_Linux_Sample-Root-Filesystem_R28.1.0_aarch64.tbz2 -C $HOME/nvidia/Linux_for_Tegra/rootfs
 $ cd $HOME/nvidia/Linux_for_Tegra
 $ sudo ./apply_binaries.sh
+
 # put the board in recovery mode (RECOVERY FORCE+RESET)
 $ sudo ./flash.sh -t jetson-tx2 mmcblk0p1
 ```
@@ -32,18 +33,18 @@ $ sudo ./flash.sh -t jetson-tx2 mmcblk0p1
 #### [HOST] Check for available SSH connection to Jetson TX2
 ```
 # to connect Jetson board
-$ ssh nvidia@192.168.42.71
+$ ssh nvidia@JETSON_IP_ADDRESS
 # to copy files to Jetson board
-$ scp setup.txt nvidia@192.168.42.71:/home/nvidia
+$ scp setup.txt nvidia@JETSON_IP_ADDRESS:/home/nvidia
 ```
 
 #### [HOST] Copy CUDA/TensorFlow packages to Jetson TX2
 ```
-$ scp cuda-repo-l4t-8-0-local_8.0.84-1_arm64.deb nvidia@192.168.42.71:/home/nvidia
-$ scp libcudnn6_6.0.21-1+cuda8.0_arm64.deb nvidia@192.168.42.71:/home/nvidia
-$ scp libcudnn6-dev_6.0.21-1+cuda8.0_arm64.deb nvidia@192.168.42.71:/home/nvidia
-$ scp libcudnn6-doc_6.0.21-1+cuda8.0_arm64.deb nvidia@192.168.42.71:/home/nvidia
-$ scp nv-gie-repo-ubuntu1604-ga-cuda8.0-trt2.1-20170614_1-1_arm64.deb nvidia@192.168.42.71:/home/nvidia
+$ scp $HOME/nvidia/jetpack_download/cuda-repo-l4t-8-0-local_8.0.84-1_arm64.deb nvidia@JETSON_IP_ADDRESS:/home/nvidia
+$ scp $HOME/nvidia/jetpack_download/libcudnn6_6.0.21-1+cuda8.0_arm64.deb nvidia@JETSON_IP_ADDRESS:/home/nvidia
+$ scp $HOME/nvidia/jetpack_download/libcudnn6-dev_6.0.21-1+cuda8.0_arm64.deb nvidia@JETSON_IP_ADDRESS:/home/nvidia
+$ scp $HOME/nvidia/jetpack_download/libcudnn6-doc_6.0.21-1+cuda8.0_arm64.deb nvidia@JETSON_IP_ADDRESS:/home/nvidia
+$ scp $HOME/nvidia/jetpack_download/nv-gie-repo-ubuntu1604-ga-cuda8.0-trt2.1-20170614_1-1_arm64.deb nvidia@JETSON_IP_ADDRESS:/home/nvidia
 ```
 
 #### [TARGET] Update Ubuntu packages
@@ -124,6 +125,6 @@ $ tar --owner root --group root -cjf kernel_supplements.tbz2 *
 $ cp $TEGRA_KERNEL_OUT/modules/kernel_supplements.tbz2 $HOME/nvidia/Linux_for_Tegra/kernel/kernel_supplements.tbz2
 $ cd $HOME/nvidia
 $ tar --owner root --group root -cjf $HOME/nvidia/Linux_for_Tegra.tbz2 Linux_for_Tegra
-$ scp $HOME/nvidia/Linux_for_Tegra.tbz2 nvidia@192.168.42.71:/home/nvidia
+$ scp $HOME/nvidia/Linux_for_Tegra.tbz2 nvidia@JETSON_IP_ADDRESS:/home/nvidia
 ```
 
