@@ -15,6 +15,7 @@ Optionally you may download JetPack to extract CUDA .deb packages or download th
 6. JetPack-L4T-3.1-linux-x64.run: All-in-one package Jetson SDK containing CUDA, TensorRT, cuDNN, VisionWorks/OpenCV4Tegra, Samples/Documentation
 ```
 
+
 ## Creating NVIDIA Jetson TX2 image
 ```shell
 $ mkdir -p $HOME/nvidia/docs
@@ -25,7 +26,8 @@ $ cd $HOME/nvidia/Linux_for_Tegra
 $ sudo ./apply_binaries.sh
 ```
 
-## Flashing NVIDIA Jetson TX2 image to internal eMMC
+
+## Flashing NVIDIA Jetson TX2 internal eMMC with image
 ```
 # put board in recovery mode
 Connect Power Unit
@@ -39,6 +41,7 @@ Release RECOVER_FORCE (after two second)
 # run flash command
 $ sudo ./flash.sh -t jetson-tx2 mmcblk0p1
 ```
+
 
 ## Configure Jetson TX2 board
 
@@ -80,7 +83,6 @@ $ sudo apt install tensorrt-2.1.2
 export PATH=/usr/local/cuda-8.0/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH
 ```
-
 
 
 
