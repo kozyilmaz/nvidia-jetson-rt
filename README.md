@@ -71,7 +71,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH
 ## Build Linux for Nvidia Jetson TX2
 
 #### Prepare build sources
-```
+```shell
 $ mkdir -p $HOME/nvidia
 $ cd $HOME/nvidia
 $ tar -xvf gcc-4.8.5-aarch64.tgz
@@ -80,7 +80,7 @@ $ tar -xvf sources/kernel_src-tx2.tbz2
 ```
 
 #### Create an "environment" file for envvars
-```
+```shell
 $ cat $HOME/nvidia/environment
 #!/bin/sh
 # toolchain flags
@@ -93,7 +93,7 @@ export TEGRA_KERNEL_OUT=$HOME/nvidia/tegra-jetson-tx2-kernel
 ```
 
 #### Export build variables and start compiling
-```
+```shell
 $ cd $HOME/nvidia
 $ source environment
 $ mkdir -p $TEGRA_KERNEL_OUT
@@ -110,7 +110,7 @@ $ make O=$TEGRA_KERNEL_OUT modules_install INSTALL_MOD_PATH=$TEGRA_KERNEL_OUT/mo
 ```
 
 #### Copy binaries to new "Linux_for_Tegra" for deployment
-```
+```shell
 $ mkdir -p $HOME/nvidia/Linux_for_Tegra/kernel
 $ cp $TEGRA_KERNEL_OUT/arch/arm64/boot/Image $HOME/nvidia/Linux_for_Tegra/kernel
 $ cp $TEGRA_KERNEL_OUT/arch/arm64/boot/zImage $HOME/nvidia/Linux_for_Tegra/kernel
