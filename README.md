@@ -99,14 +99,14 @@ $ source environment
 $ mkdir -p $TEGRA_KERNEL_OUT
 $ cd $HOME/nvidia/kernel/kernel-4.4
 # create default config
-$ make O=$TEGRA_KERNEL_OUT tegra18_defconfig
+$ make O=$TEGRA_KERNEL_OUT ARCH=$ARCH tegra18_defconfig
 # create compressed kernel image
-$ make -j4  O=$TEGRA_KERNEL_OUT zImage
+$ make -j4  O=$TEGRA_KERNEL_OUT ARCH=$ARCH zImage
 # compile device tree
-$ make O=$TEGRA_KERNEL_OUT dtbs
+$ make O=$TEGRA_KERNEL_OUT ARCH=$ARCH dtbs
 # compile and install kernel modules
-$ make -j4 O=$TEGRA_KERNEL_OUT modules
-$ make O=$TEGRA_KERNEL_OUT modules_install INSTALL_MOD_PATH=$TEGRA_KERNEL_OUT/modules
+$ make -j4 O=$TEGRA_KERNEL_OUT ARCH=$ARCH modules
+$ make O=$TEGRA_KERNEL_OUT ARCH=$ARCH modules_install INSTALL_MOD_PATH=$TEGRA_KERNEL_OUT/modules
 ```
 
 #### Copy binaries to new "Linux_for_Tegra" for deployment
