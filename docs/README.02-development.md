@@ -42,7 +42,7 @@ $ make -j4 O=$TEGRA_KERNEL_OUT ARCH=$ARCH modules
 $ make O=$TEGRA_KERNEL_OUT ARCH=$ARCH modules_install INSTALL_MOD_PATH=$TEGRA_KERNEL_OUT/modules
 ```
 
-## Copy binaries to new "Linux_for_Tegra" for deployment
+## Copy binaries to `L4T` for deployment
 ```shell
 $ mkdir -p $HOME/nvidia/L4T/kernel
 $ cp $TEGRA_KERNEL_OUT/arch/arm64/boot/Image $HOME/nvidia/L4T/kernel
@@ -54,4 +54,15 @@ $ cp $TEGRA_KERNEL_OUT/modules/kernel_supplements.tbz2 $HOME/nvidia/L4T/kernel/k
 $ cd $HOME/nvidia
 $ tar -cjf $HOME/nvidia/L4T.tbz2 L4T
 $ scp $HOME/nvidia/L4T.tbz2 nvidia@JETSON_IP_ADDRESS:/home/nvidia
+```
+
+## [TARGET]
+```shell
+$ cd /home/nvidia
+$ tar -xjvf L4T.tbz2
+$ sudo cp L4T/kernel/Image /boot/Image
+$ sudo cp L4T/kernel/dtb/* /boot/dtb
+$ sudo cp L4T/kernel/dtb/* /boot
+$ sudo tar -xvf L4T/kernel/kernel_supplements.tbz2 -C /
+$ sudo reboot
 ```
