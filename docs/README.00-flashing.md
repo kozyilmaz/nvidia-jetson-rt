@@ -1,4 +1,4 @@
-# Building and Flashing Image
+# Building a Jetson TX2 image and flashing it to eMMC
 
 ## Creating NVIDIA Jetson TX2 image
 ```shell
@@ -10,7 +10,7 @@ $ cd $HOME/nvidia/Linux_for_Tegra
 $ sudo ./apply_binaries.sh
 ```
 
-## Flashing NVIDIA Jetson TX2 internal eMMC with image
+## Flashing NVIDIA Jetson TX2 internal eMMC
 ![Screenshot](https://github.com/kozyilmaz/nvidia-jetson-rt/raw/master/docs/console.jpg "NVIDIA Jetson TX2 Console Connection")
 ```
 # put board in recovery mode
