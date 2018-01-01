@@ -15,6 +15,8 @@ Optionally you may download JetPack to extract CUDA .deb packages or download th
 6. JetPack-L4T-3.1-linux-x64.run: All-in-one package Jetson SDK containing CUDA, TensorRT, cuDNN, VisionWorks/OpenCV4Tegra, Samples/Documentation
 ```
 
+* [How to build NVIDIA Jetson TX2 image and flash into eMMC](LIGHTNING-00-install.md)
+
 
 ## Creating NVIDIA Jetson TX2 image
 ```shell
