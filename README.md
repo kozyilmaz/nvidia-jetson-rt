@@ -1,7 +1,7 @@
 # Real-Time Scheduling with NVIDIA Jetson TX2
 
 ## NVIDIA Jetson TX2 Configuration
-Visit [Nvidia L4T download directory](https://developer.nvidia.com/embedded/linux-tegra) for the list of packages  
+* Visit [Nvidia L4T download directory](https://developer.nvidia.com/embedded/linux-tegra) for the list of packages  
 Latest stable release at the time for Jetson TX2 platform is "L4T 28.1 - Production Version"  
 Download all packages to `$HOME/nvidia`, rest of the document assumes that
 ```
