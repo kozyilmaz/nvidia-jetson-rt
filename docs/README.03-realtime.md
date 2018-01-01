@@ -24,12 +24,7 @@ export TEGRA_KERNEL_OUT=$HOME/nvidia/tegra-jetson-tx2-kernel
 ```
 
 ## Export build variables and start compiling
-Test kernel config with
-```shell
-CONFIG_LOCALVERSION="-rt"
-CONFIG_PREEMPT_RT_FULL=y
-```
-can be found [here](https://github.com/kozyilmaz/nvidia-jetson-rt/raw/master/scripts/jetson-tx2-rt.config)
+Test kernel config with `CONFIG_LOCALVERSION="-rt"` and `CONFIG_PREEMPT_RT_FULL=y` can be found [here](https://github.com/kozyilmaz/nvidia-jetson-rt/raw/master/scripts/jetson-tx2-rt.config)
 
 ```shell
 $ cd $HOME/nvidia
