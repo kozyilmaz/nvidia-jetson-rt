@@ -1,4 +1,5 @@
 # Building a Jetson TX2 image and flashing it to eMMC
+[Link to required NVIDIA packages](https://github.com/kozyilmaz/nvidia-jetson-rt#nvidia-jetson-tx2-configuration)
 
 ## Creating NVIDIA Jetson TX2 image
 ```shell
