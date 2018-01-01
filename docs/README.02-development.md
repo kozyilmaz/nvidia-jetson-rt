@@ -56,7 +56,7 @@ $ tar -cjf $HOME/nvidia/L4T.tbz2 L4T
 $ scp $HOME/nvidia/L4T.tbz2 nvidia@JETSON_IP_ADDRESS:/home/nvidia
 ```
 
-## [TARGET]
+## [TARGET] Update Kernel and Drivers on Jetson Board
 ```shell
 $ cd /home/nvidia
 $ tar -xjvf L4T.tbz2
