@@ -44,15 +44,14 @@ $ make O=$TEGRA_KERNEL_OUT ARCH=$ARCH modules_install INSTALL_MOD_PATH=$TEGRA_KE
 
 ## Copy binaries to new "Linux_for_Tegra" for deployment
 ```shell
-$ mkdir -p $HOME/nvidia/Linux_for_Tegra/kernel
-$ cp $TEGRA_KERNEL_OUT/arch/arm64/boot/Image $HOME/nvidia/Linux_for_Tegra/kernel
-$ cp $TEGRA_KERNEL_OUT/arch/arm64/boot/zImage $HOME/nvidia/Linux_for_Tegra/kernel
-$ mkdir -p $HOME/nvidia/Linux_for_Tegra/kernel/dtb
-$ cp $TEGRA_KERNEL_OUT/arch/arm64/boot/dts/*.dtb $HOME/nvidia/Linux_for_Tegra/kernel/dtb
+$ mkdir -p $HOME/nvidia/L4T/kernel
+$ cp $TEGRA_KERNEL_OUT/arch/arm64/boot/Image $HOME/nvidia/L4T/kernel
+$ mkdir -p $HOME/nvidia/L4T/kernel/dtb
+$ cp $TEGRA_KERNEL_OUT/arch/arm64/boot/dts/*.dtb $HOME/nvidia/L4T/kernel/dtb
 $ cd $TEGRA_KERNEL_OUT/modules
 $ tar --owner root --group root -cjf kernel_supplements.tbz2 *
-$ cp $TEGRA_KERNEL_OUT/modules/kernel_supplements.tbz2 $HOME/nvidia/Linux_for_Tegra/kernel/kernel_supplements.tbz2
+$ cp $TEGRA_KERNEL_OUT/modules/kernel_supplements.tbz2 $HOME/nvidia/L4T/kernel/kernel_supplements.tbz2
 $ cd $HOME/nvidia
-$ tar --owner root --group root -cjf $HOME/nvidia/Linux_for_Tegra.tbz2 Linux_for_Tegra
-$ scp $HOME/nvidia/Linux_for_Tegra.tbz2 nvidia@JETSON_IP_ADDRESS:/home/nvidia
+$ tar -cjf $HOME/nvidia/L4T.tbz2 L4T
+$ scp $HOME/nvidia/L4T.tbz2 nvidia@JETSON_IP_ADDRESS:/home/nvidia
 ```
