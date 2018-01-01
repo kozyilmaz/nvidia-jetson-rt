@@ -10,7 +10,7 @@ $ tar -xvf source_release.tbz2
 $ tar -xvf sources/kernel_src-tx2.tbz2
 ```
 
-## Create an "environment" file for envvars
+## Create an `environment` file for envvars
 ```shell
 $ cat $HOME/nvidia/environment
 #!/bin/sh
