@@ -26,8 +26,6 @@ $ cd $HOME/nvidia/Linux_for_Tegra
 $ sudo ./apply_binaries.sh
 ```
 
-![Screenshot](https://github.com/kozyilmaz/nvidia-jetson-rt/raw/master/docs/console.jpg "NVIDIA Jetson TX2 Console Connection")
-
 
 ## Flashing NVIDIA Jetson TX2 internal eMMC with image
 ```
@@ -43,6 +41,8 @@ Release RECOVER_FORCE (after two second)
 # run flash command
 $ sudo ./flash.sh -t jetson-tx2 mmcblk0p1
 ```
+
+![Screenshot](https://github.com/kozyilmaz/nvidia-jetson-rt/raw/master/docs/console.jpg "NVIDIA Jetson TX2 Console Connection")
 
 
 ## Configure Jetson TX2 board
