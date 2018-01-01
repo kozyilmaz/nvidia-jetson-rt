@@ -34,7 +34,7 @@ $ make O=$TEGRA_KERNEL_OUT ARCH=$ARCH tegra18_defconfig
 # change LOCALVERSION and any kernel config
 $ make O=$TEGRA_KERNEL_OUT ARCH=$ARCH menuconfig
 # create compressed kernel image
-$ make -j4  O=$TEGRA_KERNEL_OUT ARCH=$ARCH zImage
+$ make -j4 O=$TEGRA_KERNEL_OUT ARCH=$ARCH zImage
 # compile device tree
 $ make O=$TEGRA_KERNEL_OUT ARCH=$ARCH dtbs
 # compile and install kernel modules
