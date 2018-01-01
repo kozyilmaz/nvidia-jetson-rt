@@ -20,7 +20,7 @@ Release POWER
 Push RECOVERY_FORCE
 Push RESET (after one second)
 Release RESET
-Release RECOVER_FORCE (after two second)
+Release RECOVERY_FORCE (after two second)
 
 # run flash command
 $ sudo ./flash.sh -t jetson-tx2 mmcblk0p1
