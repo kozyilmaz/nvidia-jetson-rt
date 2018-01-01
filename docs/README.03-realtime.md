@@ -34,7 +34,7 @@ $ for i in rt-patches/*.patch; do echo $i; done
 $ for i in rt-patches/*.patch; do patch -p1 < $i; done
 # create default config
 $ make O=$TEGRA_KERNEL_OUT ARCH=$ARCH tegra18_defconfig
-# change LOCALVERSION and any kernel config
+# change CONFIG_LOCALVERSION="-rt" and CONFIG_PREEMPT_RT_FULL=y for real-time scheduling
 $ make O=$TEGRA_KERNEL_OUT ARCH=$ARCH menuconfig
 # create compressed kernel image
 $ make -j4 O=$TEGRA_KERNEL_OUT ARCH=$ARCH zImage
