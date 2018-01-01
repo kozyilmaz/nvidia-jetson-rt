@@ -5,7 +5,7 @@ Visit [Nvidia L4T download directory](https://developer.nvidia.com/embedded/linu
 Latest stable release at the time for Jetson TX2 platform is "L4T 28.1 - Production Version"  
 Download all packages to $HOME/nvidia
 ```
-*NVIDIA_Tegra_Linux_Driver_Package.tar* Documentation
+**NVIDIA_Tegra_Linux_Driver_Package.tar** Documentation
 *Tegra186_Linux_R28.1.0_aarch64.tbz2* Jetson TX2 64-bit Driver Package
 *Tegra_Linux_Sample-Root-Filesystem_R28.1.0_aarch64.tbz2* Sample Root File System
 *gcc-4.8.5-aarch64.tgz* GCC 4.8.5 Tool Chain for 64-bit BSP (which contains gcc-4.8.5 Jetson TX2 release for cross-compilation)
