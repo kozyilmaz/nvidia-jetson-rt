@@ -28,6 +28,7 @@ $ sudo ./apply_binaries.sh
 
 
 ## Flashing NVIDIA Jetson TX2 internal eMMC with image
+![Screenshot](https://github.com/kozyilmaz/nvidia-jetson-rt/raw/master/docs/console.jpg "NVIDIA Jetson TX2 Console Connection")
 ```
 # put board in recovery mode
 Connect Power Unit
@@ -41,8 +42,6 @@ Release RECOVER_FORCE (after two second)
 # run flash command
 $ sudo ./flash.sh -t jetson-tx2 mmcblk0p1
 ```
-
-![Screenshot](https://github.com/kozyilmaz/nvidia-jetson-rt/raw/master/docs/console.jpg "NVIDIA Jetson TX2 Console Connection")
 
 
 ## Configure Jetson TX2 board
