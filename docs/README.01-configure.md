@@ -1,4 +1,5 @@
 # Configure NVIDIA Jetson TX2 Board
+[Link to required NVIDIA packages](https://github.com/kozyilmaz/nvidia-jetson-rt#nvidia-jetson-tx2-configuration)
 
 ## [HOST] Check for available SSH connection to Jetson TX2
 ```shell

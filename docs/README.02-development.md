@@ -1,4 +1,5 @@
 # Update Kernel and RootFS of Nvidia Jetson TX2
+[Link to required NVIDIA packages](https://github.com/kozyilmaz/nvidia-jetson-rt#nvidia-jetson-tx2-configuration)
 
 ## Prepare build sources
 ```shell
