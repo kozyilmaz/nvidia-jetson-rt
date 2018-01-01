@@ -20,5 +20,7 @@ Optionally you may download JetPack to extract CUDA .deb packages or download th
 * [How to develop and update board software](docs/README.02-development.md)
 
 ## Real-Time Patches and L4T Kernel
+* [Real-Time Linux Project](https://rt.wiki.kernel.org/index.php/Main_Page) contains necessary information to add real-time capabilities to vanilla kernels  
+* [How to patch and build a real-time Jetson kernel](docs/README.03-realtime.md)
 
 ## CPU & GPU Performance Comparison (RT & non-RT)
