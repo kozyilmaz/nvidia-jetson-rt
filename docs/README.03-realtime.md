@@ -24,6 +24,8 @@ export TEGRA_KERNEL_OUT=$HOME/nvidia/tegra-jetson-tx2-kernel
 ```
 
 ## Export build variables and start compiling
+Test kernel config can be found [here](https://github.com/kozyilmaz/nvidia-jetson-rt/raw/master/scripts/jetson-tx2-rt.config)!
+
 ```shell
 $ cd $HOME/nvidia
 $ source environment
