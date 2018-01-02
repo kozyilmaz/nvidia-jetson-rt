@@ -60,7 +60,7 @@ $ caffe/build/tools/caffe time --model=caffe/models/bvlc_googlenet/deploy.protot
 ## [Periodic Task Releaser](https://github.com/yalue/PeriodicTaskReleaser)
 This is a collection of CUDA programs intended to measure interference between GPU processes. It was created as part of ongoing research in real-time systems (see [paper](http://cs.unc.edu/~anderson/papers/ospert16.pdf)) at UNC Chapel Hill
 ```shell
-# add  periodictaskreleaser as subtree
+# add periodictaskreleaser as subtree
 $ git remote add periodictaskreleaser https://github.com/yalue/PeriodicTaskReleaser.git
 $ git subtree add --prefix=benchmarks/periodictaskreleaser/ --squash periodictaskreleaser master
 # check periodictaskreleaser subtree
@@ -72,8 +72,19 @@ $ git subtree pull --prefix=benchmarks/periodictaskreleaser/ --squash periodict
 ```
 
 
-
-https://github.com/Sarahild/CudaMemoryExperiments
+## [CUDA Memory Experiments](https://github.com/Sarahild/CudaMemoryExperiments)
+Simple programs that run memory experiments on CUDA, created at UNC - Chapel Hill
+```shell
+# add cudamemoryexperiments as subtree
+$ git remote add cudamemoryexperiments https://github.com/Sarahild/CudaMemoryExperiments.git
+$ git subtree add --prefix=benchmarks/cudamemoryexperiments/ --squash cudamemoryexperiments master
+# check cudamemoryexperiments subtree
+$ git fetch https://github.com/Sarahild/CudaMemoryExperiments.git master
+$ ./contrib/devtools/git-subtree-check.sh benchmarks/cudamemoryexperiments
+# sync cudamemoryexperiments subtree
+$ git remote add cudamemoryexperiments-remote https://github.com/Sarahild/CudaMemoryExperiments.git
+$ git subtree pull --prefix=benchmarks/cudamemoryexperiments/ --squash cudamemoryexperiments-remote master
+```
 
 
 ## [Mixbench](https://github.com/ekondis/mixbench)
