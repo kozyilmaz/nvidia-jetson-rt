@@ -13,3 +13,5 @@ $ ./contrib/devtools/git-subtree-check.sh benchmarks/mixbench
 $ git remote add mixbench-remote https://github.com/ekondis/mixbench.git
 $ git subtree pull --prefix=benchmarks/mixbench/ --squash mixbench-remote master
 ```
+
+$ sudo apt install libglew-dev

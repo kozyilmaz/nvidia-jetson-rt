@@ -1,0 +1,83 @@
+diff --git a/Makefile b/Makefile
+index d24753c..6b76dac 100755
+--- a/Makefile
++++ b/Makefile
+@@ -6,7 +6,7 @@ CUDA_BIN_DIR := $(RODINIA_BASE_DIR)/bin/linux/cuda
+ OMP_BIN_DIR := $(RODINIA_BASE_DIR)/bin/linux/omp
+ OPENCL_BIN_DIR := $(RODINIA_BASE_DIR)/bin/linux/opencl
+ 
+-CUDA_DIRS := backprop bfs cfd gaussian heartwall hotspot kmeans lavaMD leukocyte lud nn	nw srad streamcluster particlefilter pathfinder mummergpu
++CUDA_DIRS := backprop bfs cfd gaussian heartwall hotspot lavaMD lud nn	nw srad streamcluster particlefilter pathfinder
+ OMP_DIRS  := backprop bfs cfd		   heartwall hotspot kmeans lavaMD leukocyte lud nn nw srad streamcluster particlefilter pathfinder mummergpu
+ OCL_DIRS  := backprop bfs cfd gaussian heartwall hotspot kmeans lavaMD leukocyte lud nn	nw srad streamcluster particlefilter pathfinder
+ 
+@@ -14,14 +14,12 @@ all: CUDA OMP OPENCL
+ 
+ CUDA: 
+ 	cd cuda/backprop;		make;	cp backprop $(CUDA_BIN_DIR)
+-	cd cuda/bfs;			make;	cp bfs $(CUDA_BIN_DIR)
++	cd cuda/bfs;			make;	cp bfs.out $(CUDA_BIN_DIR)
+ 	cd cuda/cfd;			make;	cp euler3d euler3d_double pre_euler3d pre_euler3d_double $(CUDA_BIN_DIR)
+ 	cd cuda/gaussian;		make;	cp gaussian $(CUDA_BIN_DIR)
+ 	cd cuda/heartwall;		make;	cp heartwall $(CUDA_BIN_DIR)
+ 	cd cuda/hotspot;		make;	cp hotspot $(CUDA_BIN_DIR)
+-	cd cuda/kmeans;			make;	cp kmeans $(CUDA_BIN_DIR)
+ 	cd cuda/lavaMD;			make;	cp lavaMD $(CUDA_BIN_DIR)
+-	cd cuda/leukocyte;		make;	cp CUDA/leukocyte $(CUDA_BIN_DIR)
+ 	cd cuda/lud;			make;	cp cuda/lud_cuda $(CUDA_BIN_DIR)
+ 	cd cuda/nn;				make;	cp nn $(CUDA_BIN_DIR)
+ 	cd cuda/nw;			make;	cp needle $(CUDA_BIN_DIR)
+@@ -30,7 +28,6 @@ CUDA:
+ 	cd cuda/streamcluster;		make;	cp sc_gpu $(CUDA_BIN_DIR)
+ 	cd cuda/particlefilter;		make;	cp particlefilter_naive particlefilter_float $(CUDA_BIN_DIR)       
+ 	cd cuda/pathfinder;		make;	cp pathfinder $(CUDA_BIN_DIR)
+-	cd cuda/mummergpu;		make;	cp bin/mummergpu $(CUDA_BIN_DIR)
+ 	cd cuda/hybridsort;              make;   cp hybridsort $(CUDA_BIN_DIR)
+ 	cd cuda/dwt2d;                   make;   cp dwt2d  $(CUDA_BIN_DIR)
+ 	
+diff --git a/common/make.config b/common/make.config
+index 38c3157..306916d 100755
+--- a/common/make.config
++++ b/common/make.config
+@@ -8,6 +8,11 @@ ifeq ($(shell uname -m), x86_64)
+      	CUDA_LIB_DIR := $(CUDA_DIR)/lib64
+      endif
+ endif
++ifeq ($(shell uname -m), aarch64)
++     ifeq ($(shell if test -d $(CUDA_DIR)/lib64; then echo T; else echo F; fi), T)
++     	CUDA_LIB_DIR := $(CUDA_DIR)/lib64
++     endif
++endif
+ 
+ # CUDA SDK installation path
+ SDK_DIR = /usr/local/cuda/samples/
+diff --git a/cuda/lavaMD/makefile b/cuda/lavaMD/makefile
+index 3944253..e324fb1 100755
+--- a/cuda/lavaMD/makefile
++++ b/cuda/lavaMD/makefile
+@@ -18,7 +18,7 @@ OMP_FLAG = -fopenmp
+ 
+ CUD_C = $(CUDA_DIR)/bin/nvcc
+ # OMP_FLAG = 	-Xcompiler paste_one_here
+-CUDA_FLAG = -arch sm_13
++CUDA_FLAG = -arch sm_20
+ 
+ # link objects (binaries) together
+ a.out:		main.o \
+diff --git a/cuda/particlefilter/Makefile b/cuda/particlefilter/Makefile
+index a7db5ca..5d247da 100755
+--- a/cuda/particlefilter/Makefile
++++ b/cuda/particlefilter/Makefile
+@@ -9,10 +9,10 @@ INCLUDE := $(CUDA_DIR)/include
+ all: naive float
+ 
+ naive: ex_particle_CUDA_naive_seq.cu
+-	$(CC) -I$(INCLUDE) -L$(CUDA_LIB_DIR) -lcuda -g -lm -O3 -use_fast_math -arch sm_13 ex_particle_CUDA_naive_seq.cu -o particlefilter_naive
++	$(CC) -I$(INCLUDE) -L$(CUDA_LIB_DIR) -lcuda -g -lm -O3 -use_fast_math -arch sm_20 ex_particle_CUDA_naive_seq.cu -o particlefilter_naive
+ 	
+ float: ex_particle_CUDA_float_seq.cu
+-	$(CC) -I$(INCLUDE) -L$(CUDA_LIB_DIR) -lcuda -g -lm -O3 -use_fast_math -arch sm_13 ex_particle_CUDA_float_seq.cu -o particlefilter_float
++	$(CC) -I$(INCLUDE) -L$(CUDA_LIB_DIR) -lcuda -g -lm -O3 -use_fast_math -arch sm_20 ex_particle_CUDA_float_seq.cu -o particlefilter_float
+ 
+ clean:
+ 	rm particlefilter_naive particlefilter_float
