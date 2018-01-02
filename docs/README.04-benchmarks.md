@@ -33,7 +33,19 @@ $ git subtree pull --prefix=benchmarks/rodinia/ --squash rodinia-remote master
 ```
 
 
+## [Caffe](https://github.com/BVLC/caffe)
+```shell
+# install prerequisites
+$ sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libhdf5-serial-dev protobuf-compiler
+$ sudo apt-get install --no-install-recommends libboost-all-dev
+$ sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev
+# BLAS
+$ sudo apt-get install libatlas-base-dev
+$ git clone https://github.com/BVLC/caffe
+$ cd caffe
+$ cp Makefile.config.example Makefile.config
+$ make all
+```
 
 https://github.com/yalue/PeriodicTaskReleaser
 https://github.com/Sarahild/CudaMemoryExperiments
-https://github.com/BVLC/caffe
