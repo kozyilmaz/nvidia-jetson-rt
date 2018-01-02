@@ -8,3 +8,14 @@ mixbench_all:
 
 mixbench_clean:
 	make -C mixbench clean
+
+rodinia_all:
+	if [ ! -f "rodinia/.patched" ]; then \
+		patch -d rodinia -p1 < patches/gpu-rodinia.patch; \
+		touch rodinia/.patched; \
+	fi
+	mkdir -p $(CURDIR)/bin/linux/cuda
+	make -C rodinia CUDA
+
+rodinia_clean:
+	make -C rodinia CUDA_clean
