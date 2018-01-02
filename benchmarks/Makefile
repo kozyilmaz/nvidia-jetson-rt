@@ -1,7 +1,7 @@
 
-all: caffe_all mixbench_all rodinia_all
+all: caffe_all periodictaskreleaser_all cudamemoryexperiments_all mixbench_all rodinia_all
 
-clean: caffe_clean mixbench_clean rodinia_clean
+clean: caffe_clean periodictaskreleaser_clean cudamemoryexperiments_clean mixbench_clean rodinia_clean
 
 
 # caffe
@@ -23,8 +23,20 @@ caffe_clean:
 periodictaskreleaser_all:
 	make -C periodictaskreleaser/Benchmark
 
-periodictaskreleaser_all:
+periodictaskreleaser_clean:
 	make -C periodictaskreleaser/Benchmark clean
+
+
+# cudamemoryexperiments
+cudamemoryexperiments_all:
+	make -C cudamemoryexperiments/InOrderWalkExperiments
+	make -C cudamemoryexperiments/MemCpyExperiments
+	make -C cudamemoryexperiments/RandomWalkExperiments
+
+cudamemoryexperiments_clean:
+	make -C cudamemoryexperiments/InOrderWalkExperiments clean
+	make -C cudamemoryexperiments/MemCpyExperiments clean
+	make -C cudamemoryexperiments/RandomWalkExperiments clean
 
 
 # mixbench
