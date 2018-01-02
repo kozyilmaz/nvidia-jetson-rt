@@ -1,7 +1,7 @@
 
-all: mixbench_all
+all: mixbench_all rodinia_all
 
-clean: mixbench_clean
+clean: mixbench_clean rodinia_clean
 
 mixbench_all:
 	make -C mixbench mixbench-cuda-alt mixbench-cuda-ro
