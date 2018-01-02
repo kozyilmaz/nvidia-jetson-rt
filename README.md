@@ -31,5 +31,20 @@ Below are a selection of popular benchmark suites selected to probe different as
 * [Mixbench](https://github.com/kozyilmaz/nvidia-jetson-rt/blob/master/docs/README.04-benchmarks.md#mixbench) is a GPU benchmark tool for evaluating GPUs on mixed operational intensity kernels (CUDA, OpenCL, HIP)
 * [Rodinia Benchmark Suite](https://github.com/kozyilmaz/nvidia-jetson-rt/blob/master/docs/README.04-benchmarks.md#rodinia) is a collection of parallel programs which targets heterogeneous computing platforms with both multicore CPUs and GPUs
 
-[How to build and run benchmark suites](docs/README.04-benchmarks.md)
+```shell
+# to build all benchmarks
+$ make -C benchmarks all
 
+# or to build a specific one
+$ make -C benchmarks caffe_all
+$ make -C benchmarks periodictaskreleaser_all
+$ make -C benchmarks cudamemoryexperiments_all
+$ make -C benchmarks mixbench_all
+$ make -C benchmarks rodinia_all
+
+
+# to clean all benchmarks
+$ make -C benchmarks clean
+```
+
+[For details on how to build and run benchmark suites](docs/README.04-benchmarks.md)
