@@ -11,7 +11,7 @@ caffe_all:
 		touch caffe/.patched; \
 	fi
 	cp caffe/Makefile.config.example caffe/Makefile.config
-	make -C caffe all
+	make -C caffe -j4 all
 
 caffe_clean:
 	make -C caffe clean
@@ -19,7 +19,7 @@ caffe_clean:
 
 # mixbench
 mixbench_all:
-	make -C mixbench mixbench-cuda-alt mixbench-cuda-ro
+	make -C mixbench -j4 mixbench-cuda-alt mixbench-cuda-ro
 
 mixbench_clean:
 	make -C mixbench clean
@@ -32,7 +32,7 @@ rodinia_all:
 		touch rodinia/.patched; \
 	fi
 	mkdir -p $(CURDIR)/rodinia/bin/linux/cuda
-	make -C rodinia CUDA
+	make -C rodinia -j4 CUDA
 
 rodinia_clean:
 	make -C rodinia CUDA_clean
