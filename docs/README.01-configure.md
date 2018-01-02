@@ -16,6 +16,7 @@ $ scp $HOME/nvidia/jetpack_download/libcudnn6_6.0.21-1+cuda8.0_arm64.deb nvidia@
 $ scp $HOME/nvidia/jetpack_download/libcudnn6-dev_6.0.21-1+cuda8.0_arm64.deb nvidia@JETSON_IP_ADDRESS:/home/nvidia
 $ scp $HOME/nvidia/jetpack_download/libcudnn6-doc_6.0.21-1+cuda8.0_arm64.deb nvidia@JETSON_IP_ADDRESS:/home/nvidia
 $ scp $HOME/nvidia/jetpack_download/nv-gie-repo-ubuntu1604-ga-cuda8.0-trt2.1-20170614_1-1_arm64.deb nvidia@JETSON_IP_ADDRESS:/home/nvidia
+# libopencv4tegra may give a public key error on Jetson
 $ scp $HOME/nvidia/jetpack_download/libopencv4tegra-repo_2.4.13-17-g5317135_arm64_l4t-r26.deb nvidia@JETSON_IP_ADDRESS:/home/nvidia
 ```
 
