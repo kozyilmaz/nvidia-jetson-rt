@@ -24,9 +24,9 @@ Optionally you may download JetPack to extract CUDA .deb packages or download th
 * [How to patch and build a real-time Jetson kernel](docs/README.03-realtime.md)
 
 ## Performance Comparison (RT & non-RT)
-[*Caffe*](https://github.com/BVLC/caffe) is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR)/The Berkeley Vision and Learning Center (BVLC) and community contributors.
-[*Mixbench*](https://github.com/ekondis/mixbench) is a GPU benchmark tool for evaluating GPUs on mixed operational intensity kernels (CUDA, OpenCL, HIP)
-[*Rodinia Benchmark Suite*](https://github.com/yuhc/gpu-rodinia.git) is a collection of parallel programs which targets heterogeneous computing platforms with both multicore CPUs and GPUs.
+[**Caffe**](https://github.com/BVLC/caffe) is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR)/The Berkeley Vision and Learning Center (BVLC) and community contributors  
+*[Mixbench](https://github.com/ekondis/mixbench)* is a GPU benchmark tool for evaluating GPUs on mixed operational intensity kernels (CUDA, OpenCL, HIP)  
+[Rodinia Benchmark Suite](https://github.com/yuhc/gpu-rodinia.git) is a collection of parallel programs which targets heterogeneous computing platforms with both multicore CPUs and GPUs  
 
 * [How to build and benchmark CUDA GPU's](docs/README.04-benchmarks.md)
 
