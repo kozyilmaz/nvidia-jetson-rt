@@ -21,7 +21,7 @@ caffe_clean:
 
 # periodictaskreleaser
 periodictaskreleaser_all:
-	make -C periodictaskreleaser/Benchmark
+	make -C periodictaskreleaser/Benchmark -j4
 
 periodictaskreleaser_clean:
 	make -C periodictaskreleaser/Benchmark clean
@@ -29,9 +29,9 @@ periodictaskreleaser_clean:
 
 # cudamemoryexperiments
 cudamemoryexperiments_all:
-	make -C cudamemoryexperiments/InOrderWalkExperiments
-	make -C cudamemoryexperiments/MemCpyExperiments
-	make -C cudamemoryexperiments/RandomWalkExperiments
+	make -C cudamemoryexperiments/InOrderWalkExperiments -j4
+	make -C cudamemoryexperiments/MemCpyExperiments -j4
+	make -C cudamemoryexperiments/RandomWalkExperiments -j4
 
 cudamemoryexperiments_clean:
 	make -C cudamemoryexperiments/InOrderWalkExperiments clean
