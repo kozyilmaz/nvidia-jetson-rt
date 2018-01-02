@@ -56,7 +56,23 @@ Benchmark [GoogleNet](https://github.com/BVLC/caffe/tree/master/models/bvlc_goog
 $ caffe/build/tools/caffe time --model=caffe/models/bvlc_googlenet/deploy.prototxt -gpu 0 -iterations 200
 ```
 
-https://github.com/yalue/PeriodicTaskReleaser
+
+## [Periodic Task Releaser](https://github.com/yalue/PeriodicTaskReleaser)
+This is a collection of CUDA programs intended to measure interference between GPU processes. It was created as part of ongoing research in real-time systems (see [paper](http://cs.unc.edu/~anderson/papers/ospert16.pdf)) at UNC Chapel Hill
+```shell
+# add  periodictaskreleaser as subtree
+$ git remote add periodictaskreleaser https://github.com/yalue/PeriodicTaskReleaser.git
+$ git subtree add --prefix=benchmarks/periodictaskreleaser/ --squash periodictaskreleaser master
+# check periodictaskreleaser subtree
+$ git fetch https://github.com/yalue/PeriodicTaskReleaser.git master
+$ ./contrib/devtools/git-subtree-check.sh benchmarks/periodictaskreleaser
+# sync periodictaskreleaser subtree
+$ git remote add periodictaskreleaser-remote https://github.com/yalue/PeriodicTaskReleaser.git
+$ git subtree pull --prefix=benchmarks/periodictaskreleaser/ --squash periodictaskreleaser-remote master
+```
+
+
+
 https://github.com/Sarahild/CudaMemoryExperiments
 
 
