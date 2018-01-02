@@ -1,0 +1,6590 @@
+var all_data = {
+  "PID 7303, stream 13": [
+    [
+      285.2101,
+      17.317179,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      311.218524,
+      18.87947,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      347.317724,
+      21.584521,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      379.779166,
+      21.595822,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      412.23743,
+      21.580562,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      448.540432,
+      24.256602,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      478.029688,
+      11.588015,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      510.126546,
+      13.751035,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      542.872623,
+      9.733797,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      570.697921,
+      16.200044,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      596.839835,
+      19.787281,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      627.585391,
+      19.703428,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      659.948187,
+      14.406555,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      688.769839,
+      18.059626,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      723.034457,
+      18.051917,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      756.435429,
+      20.694676,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      791.603275,
+      14.402076,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      821.332583,
+      17.161658,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      858.340272,
+      19.785406,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      888.969683,
+      14.41619,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      924.169404,
+      17.058585,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      953.911316,
+      14.414941,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      988.129996,
+      21.598843,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1022.918,
+      18.830198,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1054.439,
+      10.712078,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1084.089,
+      15.326918,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1116.563,
+      15.342804,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1147.24,
+      17.126606,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1179.717,
+      17.094834,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1210.362,
+      17.111762,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1240.101,
+      19.842334,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1278.883,
+      15.32343,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1303.228,
+      19.858166,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1340.084,
+      20.703114,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1377.9,
+      18.935407,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1409.513,
+      14.387753,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1439.233,
+      17.104522,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1471.656,
+      17.14119,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1502.339,
+      17.14171,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1539.289,
+      21.581343,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1573.042,
+      11.133328,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1603.106,
+      15.332023,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1631.992,
+      17.145044,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1660.821,
+      19.788635,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1697.814,
+      21.594155,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1731.616,
+      16.621241,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1762.687,
+      17.99973,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1795.173,
+      16.178534,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1829.409,
+      14.404315,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1861.829,
+      19.795407,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1898.681,
+      18.871709,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1926.64,
+      18.010928,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1953.238,
+      13.923067,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1986.079,
+      15.345617,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2023.069,
+      15.524367,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2052.12,
+      17.99973,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2088.004,
+      20.633323,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2119.523,
+      14.412596,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2151.979,
+      21.607228,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2187.879,
+      21.452437,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2215.683,
+      12.561556,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2239.059,
+      21.634469,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2278.756,
+      16.195513,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2308.492,
+      15.288221,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2346.317,
+      15.277753,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2371.538,
+      16.198064,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2403.024,
+      18.051188,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2434.522,
+      21.599573,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2475.048,
+      18.000303,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2507.516,
+      14.401346,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2538.192,
+      21.597021,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2566.136,
+      14.392753,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2599.541,
+      20.675874,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2634.76,
+      23.255405,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2668.934,
+      21.524103,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2699.565,
+      17.99645,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2728.358,
+      15.344472,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2761.765,
+      19.798791,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2798.752,
+      16.185408,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2830.287,
+      13.424941,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2859.081,
+      18.913428,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2888.021,
+      19.798895,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2924.881,
+      11.712026,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2946.543,
+      17.992335,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2987.086,
+      20.717646,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3021.67,
+      14.401711,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3049.615,
+      18.896396,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3090.513,
+      16.674418,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3126.256,
+      16.890616,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3153.101,
+      15.341608,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3182.845,
+      18.005303,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3220.673,
+      17.993167,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3246.547,
+      14.634576,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3276.501,
+      17.148846,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3315.296,
+      15.345566,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3347.193,
+      24.259205,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3379.276,
+      20.958896,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3411.103,
+      18.001709,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3443.554,
+      12.580775,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3476.912,
+      17.08494,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3508.473,
+      12.565254,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3536.379,
+      17.111136,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3574.284,
+      9.747808,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3589.458,
+      24.326341,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3628.641,
+      19.369938,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3658.892,
+      16.186138,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3690.427,
+      17.116086,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3725.61,
+      12.542962,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3756.218,
+      18.000929,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3790.482,
+      14.406919,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3816.631,
+      22.525353,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3855.421,
+      19.806396,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3878.421,
+      13.941243,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3914.951,
+      15.273013,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3941.966,
+      17.122543,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3977.112,
+      16.191658,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4011.385,
+      14.406086,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4042.06,
+      16.201606,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4077.244,
+      15.278638,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4102.468,
+      18.932542,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4139.471,
+      14.402856,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4170.133,
+      21.568895,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4195.389,
+      17.051189,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4233.869,
+      13.930878,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4267.659,
+      12.548066,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4301.856,
+      10.720828,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4334.375,
+      15.352544,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4369.753,
+      14.389992,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4403.04,
+      17.134157,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4426.204,
+      18.846813,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4469.867,
+      18.969679,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4495.194,
+      19.792906,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4528.538,
+      17.107855,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4561.917,
+      14.401607,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4595.054,
+      13.709473,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4626.832,
+      14.39442,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4659.273,
+      12.567597,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4689.847,
+      16.213638,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4721.401,
+      17.129991,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4752.076,
+      18.948531,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4788.6,
+      16.65947,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4822.744,
+      17.884783,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4841.733,
+      15.221086,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4874.144,
+      18.880198,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4908.321,
+      21.593218,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4942.507,
+      17.990981,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4975.828,
+      18.934,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5009.148,
+      20.729521,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5047.759,
+      16.199887,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5085.626,
+      15.315096,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5116.27,
+      18.010928,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5148.743,
+      16.195513,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5183.939,
+      16.194418,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5215.477,
+      18.951032,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5248.9,
+      21.59254,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5281.517,
+      21.456603,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5312.053,
+      18.876658,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5340.004,
+      25.178632,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5372.697,
+      23.136133,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5401.293,
+      26.012018,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5436.109,
+      22.459935,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5467.668,
+      18.008897,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5496.555,
+      16.195773,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5528.083,
+      17.113168,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5559.65,
+      21.591291,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5590.311,
+      20.649675,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5624.577,
+      16.203534,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5654.331,
+      18.914833,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5691.298,
+      14.413222,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5723.776,
+      17.998064,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5763.364,
+      15.346867,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5796.779,
+      14.395982,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5824.72,
+      19.819365,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5861.741,
+      21.580979,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5894.208,
+      16.205564,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5920.356,
+      23.390457,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5959.286,
+      21.474155,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5990.458,
+      20.680146,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6020.228,
+      21.559781,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6057.036,
+      21.601707,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6091.31,
+      19.790198,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6121.694,
+      22.461707,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6153.252,
+      14.372493,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6190.041,
+      20.451605,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6230.161,
+      19.052959,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6260.004,
+      24.25931,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6293.643,
+      17.03296,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6333.341,
+      21.663167,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6367.679,
+      16.19145,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6400.139,
+      19.781188,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6426.911,
+      18.256449,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6462.3,
+      13.479316,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6493.284,
+      18.905406,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6520.35,
+      21.556291,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6552.796,
+      18.000772,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6580.742,
+      16.202544,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6608.687,
+      17.13848,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6639.351,
+      17.122543,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6670.013,
+      19.797594,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6702.508,
+      14.420773,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6743.826,
+      19.979469,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6771.948,
+      23.404155,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6812.6,
+      21.172854,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6844.613,
+      22.414676,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6887.819,
+      19.806968,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6918.409,
+      21.576811,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6954.232,
+      19.139469,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6985.077,
+      19.784208,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7027.468,
+      17.128377,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7056.011,
+      21.890302,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7088.78,
+      19.793011,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7117.647,
+      20.659365,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7153.667,
+      19.8065,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7183.414,
+      22.542853,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7223.048,
+      20.630719,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7255.48,
+      9.752287,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7280.596,
+      17.120356,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7300.89,
+      20.196916,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7335.543,
+      21.568114,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7378.108,
+      22.565978,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7416.01,
+      20.739416,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7448.496,
+      18.947594,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7478.319,
+      21.577176,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7510.779,
+      16.213429,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7535.153,
+      25.184987,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7567.631,
+      23.403634,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7599.61,
+      23.858998,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7643.842,
+      23.282801,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7674.416,
+      19.783166,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7708.663,
+      18.00176,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7744.865,
+      14.24494,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7772.656,
+      18.934521,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7810.607,
+      20.668948,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7842.143,
+      18.000407,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7875.53,
+      9.74885,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7896.098,
+      18.908271,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7934.006,
+      14.412388,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7962.821,
+      15.345773,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7996.198,
+      18.029679,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8029.622,
+      17.078169,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8061.149,
+      16.208689,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8098.162,
+      14.396451,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8122.462,
+      25.199987,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8167.146,
+      23.748737,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8202.56,
+      22.464051,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8246.063,
+      18.802802,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8275.743,
+      19.80124,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8306.403,
+      18.009053,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8342.785,
+      12.196453,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8370.326,
+      20.699677,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8406.36,
+      13.544889,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8437.006,
+      17.149575,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8464.044,
+      26.121809,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8504.782,
+      25.949779,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8546.67,
+      19.276397,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8580.353,
+      16.214835,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8614.359,
+      21.478948,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8650.373,
+      20.726031,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8680.118,
+      21.65301,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8712.595,
+      20.72551,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8755.494,
+      17.995928,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8791.56,
+      19.797229,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8822.216,
+      19.794937,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8856.486,
+      14.393117,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8889.858,
+      22.462801,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8924.137,
+      21.589416,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8958.393,
+      16.208325,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8984.672,
+      16.082908,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9015.574,
+      17.6402,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9046.759,
+      22.512853,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9079.006,
+      18.877178,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9118.466,
+      12.620566,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9151.884,
+      17.027804,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9184.323,
+      15.266086,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9222.165,
+      14.427492,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9255.516,
+      17.157595,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9287.136,
+      21.578062,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9317.799,
+      17.991397,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9350.266,
+      17.986865,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9381.801,
+      21.648738,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9406.739,
+      18.850667,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9444.331,
+      18.180511,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9474.095,
+      24.479362,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9509.501,
+      18.666813,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9540.829,
+      14.387545,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9575.076,
+      17.993949,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9607.554,
+      19.782802,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9639.996,
+      17.985355,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9675.185,
+      7.909579,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9700.229,
+      18.924938,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9727.306,
+      18.001866,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9760.634,
+      18.933271,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9795.848,
+      14.415305,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9829.213,
+      22.454572,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9875.951,
+      22.658009,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9906.755,
+      21.605613,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9937.433,
+      21.614989,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9968.116,
+      18.865615,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9998.729,
+      17.14072,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10034.88,
+      19.796499,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10067.35,
+      19.809625,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10098.24,
+      13.380149,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10130.62,
+      15.23093,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10159.38,
+      15.341971,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10190.04,
+      17.131241,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10220.73,
+      18.942386,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10255.93,
+      23.393998,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10288.88,
+      15.689055,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10314.51,
+      21.578582,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10355.11,
+      19.770094,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10387.56,
+      19.799001,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10423.62,
+      18.936657,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10458.89,
+      23.367123,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10484.49,
+      22.983529,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10523.91,
+      26.112538,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10569.08,
+      17.893635,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10606.88,
+      14.393639,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10630.29,
+      21.656967,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10674.31,
+      17.127439,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10700.34,
+      19.895041,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10734.19,
+      22.02999,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10777.76,
+      18.916917,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10809.11,
+      16.227179,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10840.69,
+      17.128116,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10875.87,
+      14.405514,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10903.82,
+      18.931032,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10932.7,
+      21.601967,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10978.64,
+      15.32395,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      11009.27,
+      15.294524,
+      "stereoDisparityKernel() []"
+    ]
+  ],
+  "PID 7305, stream 13": [
+    [
+      258.284339,
+      8.309996,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      272.144366,
+      7.905567,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      293.235529,
+      15.556963,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      311.962823,
+      19.654175,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      340.012515,
+      19.566101,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      374.060522,
+      17.990779,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      406.519404,
+      17.967759,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      443.677169,
+      26.059888,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      493.838757,
+      17.123484,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      526.299047,
+      15.334411,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      548.441153,
+      16.483166,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      579.405079,
+      14.397113,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      607.329093,
+      17.136661,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      637.15567,
+      19.756206,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      674.979428,
+      21.606113,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      707.458258,
+      23.390342,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      741.711371,
+      21.593925,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      767.846572,
+      20.719754,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      806.633617,
+      21.598144,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      842.717156,
+      18.903962,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      879.67044,
+      14.390499,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      907.608412,
+      15.324359,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      942.79278,
+      16.203009,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      970.955597,
+      14.141486,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      998.647214,
+      18.920108,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1030.743,
+      20.66168,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1065.769,
+      19.819956,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1103.643,
+      18.941046,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1138.848,
+      19.790687,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1164.993,
+      21.59356,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1197.439,
+      19.807248,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1228.116,
+      19.770634,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1260.573,
+      19.811467,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1298.431,
+      22.529504,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1329.525,
+      19.222818,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1361.417,
+      17.982708,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1387.553,
+      18.914899,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1424.533,
+      21.580176,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1456.965,
+      21.573144,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1497.543,
+      19.810218,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1529.975,
+      16.193894,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1564.226,
+      10.717925,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1580.473,
+      19.604799,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1610.965,
+      17.994738,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1645.246,
+      12.545177,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1676.719,
+      15.340244,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1707.407,
+      18.908284,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1742.547,
+      16.180925,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1774.999,
+      16.203114,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1811.972,
+      16.206187,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1845.768,
+      14.830084,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1875.94,
+      15.327016,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1899.28,
+      18.012603,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1932.631,
+      15.344462,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1967.793,
+      19.775165,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2002.055,
+      16.20853,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2037.429,
+      17.993124,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2066.245,
+      15.331234,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2102.975,
+      18.054218,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2134.569,
+      14.384457,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2155.318,
+      25.194206,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2184.755,
+      20.656107,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2224.649,
+      17.700102,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2255.897,
+      17.109368,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2293.79,
+      23.389247,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2322.619,
+      20.668816,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2353.024,
+      15.49014,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2387.5,
+      18.830733,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2424.554,
+      16.859107,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2459.471,
+      12.55377,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2487.364,
+      18.924743,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2514.451,
+      14.395342,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2544.175,
+      18.937191,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2581.169,
+      16.20827,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2614.534,
+      16.261551,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2640.759,
+      20.581733,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2674.921,
+      18.881306,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2711.871,
+      17.998019,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2748.859,
+      16.205769,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2783.128,
+      14.398311,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2817.375,
+      20.717515,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2847.578,
+      20.178501,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2882.994,
+      15.508526,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2912.051,
+      13.486068,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2948.949,
+      15.333265,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2979.566,
+      19.792405,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3009.353,
+      13.816382,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3043.03,
+      16.186915,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3078.194,
+      13.392055,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3103.33,
+      15.310347,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3130.261,
+      18.020884,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3169.085,
+      23.376019,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3199.694,
+      15.233524,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3226.67,
+      15.325973,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3261.824,
+      21.575227,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3302.41,
+      16.201135,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3329.487,
+      15.259723,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3349.599,
+      22.518358,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3389.16,
+      18.924535,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3430.67,
+      14.40003,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3456.779,
+      17.974425,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3477.991,
+      17.540933,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3512.833,
+      20.530638,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3546.023,
+      19.789019,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3580.625,
+      19.324797,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3612.63,
+      12.567781,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3638.736,
+      17.138744,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3675.724,
+      21.598769,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3716.282,
+      14.414405,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3748.712,
+      19.797978,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3779.39,
+      16.189884,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3811.851,
+      23.383728,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3846.118,
+      18.010572,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3888.503,
+      17.976352,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3915.847,
+      14.118258,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3951.618,
+      12.569916,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3982.249,
+      16.198895,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4014.714,
+      14.41602,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4047.2,
+      17.994374,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4077.86,
+      14.404458,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4113.94,
+      16.196291,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4146.404,
+      14.396072,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4172.533,
+      18.911253,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4213.09,
+      16.226134,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4246.65,
+      17.067701,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4281.399,
+      19.24063,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4316.152,
+      15.209566,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4350.586,
+      13.431171,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4382.995,
+      17.02916,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4412.704,
+      10.730946,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4445.699,
+      11.676422,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4461.504,
+      21.62903,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4495.811,
+      20.718453,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4533.643,
+      15.340348,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4568.849,
+      14.408207,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4601.31,
+      14.395239,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4633.748,
+      16.198583,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4668.252,
+      12.269861,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4698.584,
+      16.213738,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4731.061,
+      14.410916,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4762.622,
+      13.505754,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4793.273,
+      13.479608,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4808.985,
+      23.271487,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4844.177,
+      19.725947,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4881.954,
+      18.928234,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4905.344,
+      20.646941,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4936.286,
+      16.722387,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4964.726,
+      18.944431,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5000.845,
+      20.598294,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5042.147,
+      16.119884,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5072.728,
+      16.206185,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5101.598,
+      17.996769,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5135.862,
+      16.192437,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5164.718,
+      17.085253,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5196.264,
+      16.204624,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5228.746,
+      18.015571,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5258.505,
+      18.932505,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5278.4,
+      20.673555,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5312.675,
+      18.006248,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5342.415,
+      22.518098,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5378.712,
+      20.456679,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5407.297,
+      24.304827,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5436.732,
+      23.394405,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5474.619,
+      20.727826,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5511.609,
+      19.774019,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5539.507,
+      16.212957,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5569.257,
+      18.920472,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5605.322,
+      18.048228,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5641.731,
+      21.303611,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5685.612,
+      14.390498,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5718.08,
+      17.997134,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5749.334,
+      17.362547,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5779.368,
+      16.205249,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5811.834,
+      16.217749,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5838.875,
+      18.928181,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5867.761,
+      20.708869,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5909.274,
+      19.797925,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5945.331,
+      8.871145,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5956.2,
+      20.675743,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5991.226,
+      21.466321,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6025.373,
+      19.776884,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6054.065,
+      20.676161,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6085.616,
+      16.20754,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6122.32,
+      23.387321,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6168.284,
+      17.132077,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6199.442,
+      17.985207,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6223.595,
+      18.129998,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6260.621,
+      25.192331,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6296.13,
+      21.481581,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6328.679,
+      17.02692,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6358.386,
+      14.409562,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6390.85,
+      17.997707,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6422.146,
+      20.936682,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6453.008,
+      18.917816,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6474.641,
+      15.642486,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6503.839,
+      15.309515,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6530.868,
+      20.725222,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6565.137,
+      17.129629,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6600.331,
+      19.79553,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6630.072,
+      20.712775,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6673.38,
+      23.396124,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6705.899,
+      17.967551,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6734.747,
+      22.441326,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6766.943,
+      19.123964,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6804.239,
+      22.921329,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6838.055,
+      19.687768,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6870.426,
+      14.396436,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6903.767,
+      11.646056,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6936.114,
+      20.739754,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6969.524,
+      12.556113,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6995.604,
+      18.946097,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7016.922,
+      19.251308,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7047.656,
+      20.963037,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7081.299,
+      17.989478,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7118.281,
+      21.595071,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7148.275,
+      15.921601,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7180.452,
+      21.617832,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7212.961,
+      8.888904,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7230.488,
+      22.868516,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7265.899,
+      23.410915,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7310.044,
+      22.505493,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7338.893,
+      25.197435,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7371.562,
+      21.631269,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7402.266,
+      16.198218,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7431.072,
+      19.901989,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7461.792,
+      15.331076,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7488.847,
+      20.735796,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7528.062,
+      23.000027,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7561.948,
+      19.797457,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7595.351,
+      18.829483,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7630.998,
+      9.744848,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7649.87,
+      20.627825,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7688.561,
+      18.90714,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7717.42,
+      19.79277,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7748.07,
+      18.000728,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7779.619,
+      18.938129,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7811.243,
+      21.585644,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7845.505,
+      21.594915,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7881.084,
+      18.329688,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7914.806,
+      17.069107,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7947.291,
+      17.063223,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7983.36,
+      14.39352,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8008.693,
+      18.809274,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8048.29,
+      14.404821,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8080.761,
+      16.208842,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8114.986,
+      23.398726,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8149.261,
+      12.562051,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8164.184,
+      22.840026,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8212.339,
+      21.491321,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8238.65,
+      9.754534,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8268.256,
+      18.013749,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8302.533,
+      17.986925,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8334.992,
+      12.55528,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8365.57,
+      21.581113,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8399.805,
+      14.407374,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8422.364,
+      22.517317,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8461.092,
+      25.191446,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8498.08,
+      24.255139,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8530.535,
+      18.890056,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8561.17,
+      22.503045,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8602.262,
+      22.454347,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8643.311,
+      19.37636,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8671.773,
+      23.387322,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8715.038,
+      18.044113,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8748.018,
+      19.796728,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8778.694,
+      16.202957,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8811.162,
+      19.771675,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8843.615,
+      14.406854,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8871.555,
+      16.198425,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8899.515,
+      20.71043,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8933.775,
+      20.711993,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8975.279,
+      14.398206,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9009.546,
+      16.196134,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9040.211,
+      19.783447,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9079.768,
+      19.674644,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9110.314,
+      9.751046,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9131.767,
+      18.930993,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9153.801,
+      22.070543,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9184.966,
+      16.181915,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9210.238,
+      17.071869,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9237.271,
+      19.785686,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9277.874,
+      16.194416,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9312.129,
+      14.400446,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9343.655,
+      17.124682,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9373.455,
+      23.394717,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9420.115,
+      16.970618,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9451.482,
+      17.994634,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9480.134,
+      21.825125,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9517.135,
+      19.797144,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9551.377,
+      17.99354,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9580.241,
+      18.005675,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9612.714,
+      21.580436,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9645.163,
+      19.79704,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9683.765,
+      19.803186,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9720.142,
+      19.495476,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9748.707,
+      19.797248,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9780.25,
+      17.152806,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9810.946,
+      14.40128,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9829.864,
+      23.376905,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9871.216,
+      23.511905,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9912.793,
+      18.952816,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9947.07,
+      18.947087,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9981.351,
+      20.73616,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10015.69,
+      17.08166,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10044.52,
+      17.129056,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10076.99,
+      17.136556,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10112.3,
+      17.141036,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10140.6,
+      22.120492,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10175.41,
+      22.513826,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10217.79,
+      18.01953,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10250.25,
+      19.815634,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10282.73,
+      14.366435,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10316.96,
+      18.925265,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10345.85,
+      16.179781,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10378.29,
+      16.213738,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10410.86,
+      19.705268,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10450.56,
+      25.083997,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10481.15,
+      22.466326,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10520.97,
+      25.196394,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10555.36,
+      23.265393,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10589.99,
+      13.920339,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10621.95,
+      23.412164,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10658.8,
+      18.870629,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10691.26,
+      15.198993,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10723.56,
+      20.668451,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10756.04,
+      9.753388,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10779.34,
+      17.130254,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10816.96,
+      17.158274,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10853.98,
+      18.912035,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10882.95,
+      14.302114,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10914.38,
+      15.341702,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10937.89,
+      21.590071,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10963.32,
+      16.874316,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10996.13,
+      20.076729,
+      "stereoDisparityKernel() []"
+    ]
+  ],
+  "PID 7306, stream 13": [
+    [
+      329.930411,
+      14.420395,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      357.886404,
+      17.129369,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      390.359038,
+      17.115983,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      416.496114,
+      20.730431,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      443.81028,
+      25.12879,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      480.090175,
+      20.103865,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      511.069311,
+      16.202749,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      551.505167,
+      16.228218,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      586.441773,
+      15.538266,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      620.046548,
+      17.995103,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      651.579385,
+      15.3204,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      678.648655,
+      20.730117,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      707.52085,
+      22.530338,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      741.784796,
+      20.71116,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      777.829794,
+      17.131244,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      806.708969,
+      20.734963,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      837.397999,
+      17.979634,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      867.113742,
+      17.096973,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      902.285088,
+      17.997604,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      935.608404,
+      15.340713,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      973.496277,
+      16.198999,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1004.11,
+      14.414769,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1036.212,
+      17.989322,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1069.436,
+      18.947244,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1098.323,
+      19.810686,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1131.432,
+      17.365568,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1165.067,
+      20.711211,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1201.101,
+      18.935005,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1235.377,
+      20.701264,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1264.236,
+      18.945055,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1293.11,
+      23.398572,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1331.766,
+      21.573404,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1361.481,
+      17.119422,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1397.535,
+      15.32613,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1424.606,
+      20.705952,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1457.039,
+      20.712827,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1487.704,
+      16.19952,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1519.569,
+      14.965814,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1544.477,
+      20.712827,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1583.078,
+      21.589654,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1617.342,
+      21.61278,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1649.318,
+      18.457241,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1680.45,
+      14.407165,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1707.479,
+      18.048176,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1742.623,
+      15.308004,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1775.073,
+      15.331442,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1805.747,
+      14.391956,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1838.199,
+      12.554916,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1866.1,
+      18.905369,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1906.545,
+      17.138901,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1943.561,
+      12.563457,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1967.865,
+      18.914536,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2002.129,
+      15.324671,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2032.97,
+      16.194415,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2069.958,
+      12.576113,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2095.856,
+      20.711421,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2137.599,
+      14.161905,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2160.772,
+      21.680749,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2203.719,
+      15.326285,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2234.342,
+      22.516066,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2260.313,
+      15.489047,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2285.747,
+      19.791624,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2326.284,
+      20.720483,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2356.693,
+      16.414365,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2389.317,
+      21.605644,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2418.189,
+      11.583505,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2439.721,
+      20.702722,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2478.451,
+      19.787562,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2520.828,
+      14.412895,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2548.773,
+      17.133587,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2581.239,
+      15.350557,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2607.413,
+      20.727775,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2646.217,
+      17.920207,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2679.456,
+      17.158691,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2711.943,
+      17.138484,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2742.615,
+      14.401123,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2770.563,
+      17.123693,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2805.744,
+      17.998227,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2840.943,
+      11.59064,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2872.385,
+      10.729853,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2896.81,
+      20.724389,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2926.905,
+      16.68895,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2962.59,
+      13.418774,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2982.373,
+      21.576269,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3023.31,
+      16.164311,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3057.525,
+      17.982603,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3082.202,
+      15.772537,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3116.948,
+      9.759796,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3148.389,
+      16.215144,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3172.752,
+      22.498983,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3202.111,
+      15.614152,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3237.583,
+      12.570333,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3261.896,
+      20.716004,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3292.567,
+      14.388571,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3329.562,
+      14.373676,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3365.846,
+      14.36951,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3394.628,
+      18.046405,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3423.486,
+      15.325452,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3456.852,
+      17.113379,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3493.84,
+      14.412373,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3521.755,
+      20.711993,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3554.207,
+      17.131139,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3591.94,
+      21.657468,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3616.441,
+      16.942701,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3651.467,
+      16.197489,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3675.796,
+      20.716003,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3706.464,
+      14.403729,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3737.098,
+      16.176186,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3773.435,
+      14.102684,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3803.941,
+      19.673498,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3833.542,
+      17.138587,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3869.623,
+      15.323422,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3894.877,
+      17.131608,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3930.07,
+      17.989946,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3959.36,
+      14.809147,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3992.223,
+      16.218009,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4024.713,
+      14.40404,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4058.982,
+      15.31915,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4090.573,
+      18.870629,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4120.323,
+      16.205041,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4152.95,
+      14.240915,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4186.115,
+      15.276336,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4213.165,
+      15.362796,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4246.722,
+      16.197593,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4277.332,
+      18.846618,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4318.04,
+      17.925883,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4352.992,
+      13.820236,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4387.687,
+      21.459184,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4425.084,
+      21.590124,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4456.26,
+      15.211076,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4487.811,
+      19.746155,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4516.67,
+      17.949946,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4544.614,
+      14.363103,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4575.245,
+      12.559655,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4607.683,
+      14.412739,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4640.15,
+      16.183686,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4672.57,
+      14.338206,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4708.581,
+      18.920264,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4743.779,
+      19.807769,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4776.713,
+      17.525777,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4812.651,
+      22.402784,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4851.429,
+      18.851671,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4873.039,
+      19.803968,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4909.018,
+      20.716994,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4946.799,
+      18.902192,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4977.458,
+      17.106608,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5004.445,
+      21.605853,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5032.285,
+      10.741676,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5062.885,
+      14.414509,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5098.071,
+      15.262535,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5128.687,
+      15.322745,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5164.792,
+      16.211446,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5199.063,
+      18.003175,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5228.82,
+      17.144786,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5258.58,
+      18.061457,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5291.204,
+      17.913383,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5319.929,
+      17.140566,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5347.879,
+      19.839592,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5378.784,
+      19.575163,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5407.358,
+      23.455342,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5440.396,
+      22.540807,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5469.299,
+      21.582936,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5503.557,
+      18.001823,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5539.581,
+      15.340036,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5569.332,
+      18.046197,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5598.204,
+      20.714702,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5635.181,
+      16.217437,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5667.653,
+      14.403103,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5704.679,
+      14.368884,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5740.705,
+      12.547728,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5773.118,
+      14.405135,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5805.587,
+      14.400707,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5838.948,
+      18.055363,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5872.352,
+      18.92516,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5901.227,
+      16.198114,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5927.38,
+      18.914535,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5963.582,
+      20.602254,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5994.894,
+      20.592409,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6025.444,
+      18.917921,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6061.324,
+      20.737826,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6095.599,
+      18.910212,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6125.991,
+      22.512994,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6154.848,
+      19.803081,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6199.515,
+      17.138953,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6235.501,
+      17.135462,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6264.291,
+      24.319462,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6299.79,
+      20.629181,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6344.014,
+      18.938441,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6378.296,
+      17.118171,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6414.345,
+      18.897453,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6444.104,
+      19.791154,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6484.06,
+      20.720952,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6524.636,
+      22.510909,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6559.82,
+      17.994479,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6591.361,
+      18.922244,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6624.763,
+      21.571165,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6655.409,
+      14.412894,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6684.228,
+      18.088385,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6717.666,
+      15.322379,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6735.541,
+      20.862306,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6778.044,
+      19.842404,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6807.908,
+      22.046011,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6846.143,
+      20.726526,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6877.559,
+      17.2614,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6911.184,
+      19.587664,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6944.155,
+      21.814291,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6974.493,
+      15.759204,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7005.6,
+      15.345296,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7041.739,
+      15.230243,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7066.927,
+      18.930109,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7097.597,
+      17.12666,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7121.953,
+      20.715067,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7157.972,
+      18.933442,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7188.668,
+      20.738035,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7230.559,
+      21.99872,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7259.312,
+      18.360574,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7292.139,
+      12.54752,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7315.509,
+      19.826936,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7344.35,
+      21.675905,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7380.61,
+      18.101301,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7416.773,
+      21.623978,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7449.282,
+      18.008958,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7482.611,
+      22.520806,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7517.817,
+      14.415031,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7543.048,
+      19.867456,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7573.734,
+      19.859124,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7605.71,
+      20.319022,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7649.943,
+      19.756363,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7682.311,
+      20.697306,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7721.085,
+      18.910836,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7759.843,
+      20.741629,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7792.333,
+      15.354097,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7825.699,
+      16.247853,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7854.567,
+      18.044843,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7884.226,
+      19.781519,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7914.876,
+      16.210927,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7947.363,
+      16.204051,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7977.111,
+      14.369197,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8008.767,
+      17.93604,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8041.124,
+      15.318474,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8071.783,
+      17.129837,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8106.985,
+      12.560333,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8130.362,
+      19.862197,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8169.653,
+      19.295058,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8201.624,
+      25.035508,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8253.891,
+      18.934899,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8284.577,
+      18.909952,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8314.297,
+      17.138066,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8353.928,
+      18.005311,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8385.459,
+      15.30217,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8414.354,
+      19.736363,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8445.245,
+      12.2908,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8466.557,
+      21.664083,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8507.293,
+      21.484238,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8541.988,
+      20.147042,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8570.288,
+      20.716161,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8609.68,
+      22.352472,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8645.695,
+      21.586634,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8675.44,
+      22.526432,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8700.723,
+      21.601685,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8740.984,
+      11.59616,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8772.757,
+      14.091175,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8800.392,
+      18.911984,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8836.431,
+      15.345609,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8871.626,
+      15.318473,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8899.586,
+      19.839645,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8933.847,
+      19.837145,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8965.424,
+      14.417687,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8995.176,
+      15.333317,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9019.886,
+      16.768586,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9048.378,
+      20.737201,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9092.41,
+      16.145458,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9122.352,
+      21.1621,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9162.861,
+      18.550992,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9201.328,
+      17.926666,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9237.345,
+      18.937244,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9267.68,
+      14.752011,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9292.376,
+      20.716941,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9324.837,
+      19.794956,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9354.578,
+      15.318474,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9377.125,
+      22.523826,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9420.186,
+      16.11478,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9451.555,
+      17.135357,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9480.204,
+      20.954807,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9517.209,
+      18.913598,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9554.172,
+      17.995937,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9587.506,
+      17.139368,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9616.382,
+      20.705431,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9652.428,
+      18.922139,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9680.254,
+      17.067598,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9709.05,
+      15.348578,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9744.268,
+      17.978227,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9774.004,
+      18.936567,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9814.013,
+      12.29257,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9846.106,
+      12.57351,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9859.763,
+      18.806045,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9888.503,
+      15.346286,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9917.39,
+      17.137599,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9947.144,
+      18.065363,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9981.415,
+      19.872926,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10015.76,
+      16.21004,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10049.11,
+      15.32915,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10081.58,
+      13.509244,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10105.38,
+      21.417779,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10131.68,
+      21.203559,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10165.6,
+      21.539342,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10198.34,
+      15.886706,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10229.58,
+      17.112337,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10256.65,
+      22.521587,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10295.4,
+      16.210769,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10325.15,
+      17.146348,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10355.83,
+      18.90693,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10388.29,
+      18.924223,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10414.53,
+      20.632982,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10454.22,
+      24.226961,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10496.01,
+      15.803945,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10531.82,
+      18.011353,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10559.02,
+      22.398097,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10599.48,
+      14.409301,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10625.62,
+      22.53742,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10658.87,
+      18.001354,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10695.68,
+      20.770952,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10736.72,
+      17.563173,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10765.9,
+      19.786363,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10802.72,
+      15.227275,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10832.43,
+      16.20228,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10862.17,
+      17.10812,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10895.56,
+      19.800842,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10937.96,
+      20.719129,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10970.39,
+      16.199104,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10999.79,
+      19.221099,
+      "stereoDisparityKernel() []"
+    ]
+  ],
+  "PID 7307, stream 13": [
+    [
+      277.460172,
+      18.041874,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      308.770859,
+      18.773912,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      341.11744,
+      20.719188,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      373.57501,
+      20.725908,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      411.414712,
+      18.073697,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      449.512071,
+      16.119618,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      478.055182,
+      17.995883,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      514.114242,
+      16.204411,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      551.822171,
+      17.160929,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      590.624328,
+      18.927351,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      624.969363,
+      20.625855,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      660.06852,
+      19.808712,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      692.545415,
+      21.588207,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      723.384274,
+      17.829633,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      755.662469,
+      21.587061,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      788.128894,
+      17.99578,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      820.613236,
+      16.188734,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      848.542539,
+      18.907559,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      885.503848,
+      16.191128,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      914.37545,
+      16.198629,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      950.464355,
+      12.537921,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      978.339334,
+      20.726168,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1014.966,
+      21.520445,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1050.281,
+      18.588233,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1081.55,
+      16.20217,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1114.027,
+      14.400802,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1145.561,
+      18.937404,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1179.113,
+      16.030086,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1213.205,
+      17.978645,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1244.724,
+      18.943184,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1276.347,
+      17.996613,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1311.531,
+      9.742271,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1335.67,
+      19.843922,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1371.769,
+      19.793139,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1406.03,
+      17.989999,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1438.479,
+      17.977707,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1470.921,
+      14.405697,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1504.264,
+      13.494022,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1533.093,
+      20.714762,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1576.215,
+      22.53186,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1610.478,
+      22.550664,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1651.033,
+      18.928549,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1683.503,
+      19.79215,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1716.899,
+      13.429126,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1749.303,
+      15.276747,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1781.777,
+      15.276381,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1811.512,
+      16.196598,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1843.97,
+      17.957655,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1878.177,
+      8.887681,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1908.75,
+      17.985103,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1949.294,
+      17.983332,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      1979.952,
+      16.209463,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2008.827,
+      15.286329,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2042.336,
+      17.133064,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2078.221,
+      19.774909,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2112.475,
+      14.38825,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2148.516,
+      24.348543,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2181.69,
+      20.581271,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2218.494,
+      23.391503,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2260.642,
+      16.413213,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2286.997,
+      22.52134,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2314.033,
+      23.396087,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2361.758,
+      15.324924,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2386.051,
+      22.521027,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2428.336,
+      20.717262,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2455.74,
+      14.019599,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2485.095,
+      17.14218,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2520.32,
+      17.962552,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2559.081,
+      16.205452,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2589.762,
+      19.809286,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2621.246,
+      20.674396,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2652.786,
+      16.194826,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2685.287,
+      16.168524,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2722.254,
+      14.39127,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2751.987,
+      18.927923,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2780.86,
+      16.193941,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2805.192,
+      21.590812,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2843.909,
+      19.785951,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2885.427,
+      20.727887,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2925.053,
+      18.001405,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2957.313,
+      14.573615,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      2992.604,
+      13.488189,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3024.532,
+      16.199202,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3052.453,
+      15.325756,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3091.149,
+      16.182588,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3127.076,
+      17.158378,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3156.905,
+      24.23823,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3202.438,
+      18.338231,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3243.328,
+      17.98604,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3275.789,
+      14.409603,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3300.13,
+      18.013281,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3337.423,
+      23.385983,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3369.507,
+      20.084288,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3401.329,
+      17.132909,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3438.232,
+      18.036562,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3478.398,
+      16.673581,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3509.504,
+      23.383223,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3541.955,
+      19.791525,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3574.295,
+      25.202977,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3622.465,
+      18.514899,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3656.314,
+      18.918913,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3689.688,
+      14.383666,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3723.374,
+      14.924659,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3750.045,
+      17.133169,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3787.016,
+      14.422052,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3816.792,
+      18.913339,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3845.657,
+      18.93011,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3882.626,
+      19.802045,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3919.619,
+      18.861152,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3955.637,
+      16.199983,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      3985.367,
+      17.136814,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4020.584,
+      16.203681,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4046.732,
+      17.965832,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4083.717,
+      19.810951,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4117.068,
+      17.12744,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4152.252,
+      19.785275,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4189.217,
+      18.008749,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4219.908,
+      15.289455,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4250.649,
+      15.314507,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4278.209,
+      18.371356,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4318.372,
+      18.857246,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4355.468,
+      16.187223,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4375.434,
+      24.134374,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4423.607,
+      18.951933,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4464.65,
+      17.154002,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4503.462,
+      16.17488,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4540.435,
+      16.206389,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4577.184,
+      11.848383,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4607.158,
+      14.381634,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4636.88,
+      17.127022,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4671.977,
+      16.196702,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4696.334,
+      21.577842,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4728.803,
+      19.81288,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4762.797,
+      16.470559,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4796.68,
+      24.273751,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4845.431,
+      17.124158,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4884.224,
+      10.709572,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4918.393,
+      10.72952,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4948.976,
+      18.001041,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      4983.241,
+      10.722904,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5014.695,
+      11.652966,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5045.193,
+      15.329091,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5070.479,
+      17.985207,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5106.516,
+      17.13869,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5138.987,
+      15.322215,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5168.723,
+      17.13322,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5199.401,
+      18.937246,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5233.694,
+      20.727106,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5278.957,
+      20.583093,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5322.134,
+      21.583468,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5356.919,
+      17.460255,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5391.528,
+      25.153395,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5440.724,
+      18.096405,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5477.753,
+      17.122023,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5508.423,
+      18.890058,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5546.304,
+      18.869433,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5580.561,
+      19.777567,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5610.303,
+      16.195192,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5638.55,
+      20.421739,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5663.708,
+      14.210643,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5691.458,
+      14.418041,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5717.622,
+      17.114887,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5744.637,
+      18.00328,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5778.908,
+      16.19988,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5814.972,
+      18.94855,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5844.742,
+      17.131918,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5875.404,
+      17.140981,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5910.608,
+      22.518215,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5963.927,
+      14.290853,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      5999.626,
+      15.340862,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6035.747,
+      7.911371,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6061.666,
+      16.270452,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6095.076,
+      13.46647,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6126.329,
+      18.03828,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6156.114,
+      18.001873,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6175.602,
+      13.434856,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6208.04,
+      13.399959,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6237.703,
+      10.72306,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6259.238,
+      21.648729,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6299.166,
+      15.289767,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6327.193,
+      20.787783,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6364.255,
+      16.190191,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6390.395,
+      18.910318,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6430.021,
+      17.112908,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6468.225,
+      21.613519,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6502.468,
+      17.995936,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6533.99,
+      17.151138,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6573.724,
+      16.202587,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6607.05,
+      17.133949,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6642.243,
+      14.398406,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6666.601,
+      22.537537,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6705.423,
+      17.982967,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6744.849,
+      13.682097,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6765.803,
+      22.511184,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6789.844,
+      20.628043,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6822.268,
+      13.39746,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6850.998,
+      15.342633,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6878.079,
+      18.936986,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6908.659,
+      20.727158,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6931.916,
+      24.479586,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      6978.933,
+      20.722106,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7012.333,
+      19.800535,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7050.154,
+      20.742731,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7086.228,
+      18.937559,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7126.804,
+      13.496002,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7157.45,
+      17.145356,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7189.013,
+      16.270557,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7214.724,
+      23.741455,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7259.126,
+      22.537746,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7297.874,
+      23.377909,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7332.111,
+      24.345367,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7357.684,
+      18.823027,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7390.101,
+      17.057491,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7418.906,
+      20.761533,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7460.467,
+      17.977967,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7491.991,
+      17.14921,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7525.418,
+      24.330053,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7561.495,
+      22.527485,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7593.472,
+      22.987124,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7628.217,
+      17.468954,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7661.089,
+      17.071084,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7689.892,
+      17.126502,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7718.764,
+      17.110408,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7747.614,
+      21.603573,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7780.095,
+      18.010312,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7808.065,
+      20.719136,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7842.326,
+      20.694553,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7886.367,
+      18.037499,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7918.804,
+      17.159887,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7956.757,
+      14.403301,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      7989.335,
+      19.687461,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8019.894,
+      16.196545,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8054.16,
+      16.201025,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8080.304,
+      16.219253,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8112.732,
+      24.330731,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8145.933,
+      19.03308,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8180.34,
+      7.907985,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8200.174,
+      22.365713,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8239.857,
+      17.998905,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8273.199,
+      18.93407,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8312.921,
+      14.385123,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8340.165,
+      15.005441,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8368.718,
+      18.889642,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8410.21,
+      23.369679,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8446.583,
+      23.006709,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8489.665,
+      26.820388,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8522.57,
+      21.007369,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8554.457,
+      23.371347,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8593.847,
+      25.023809,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8625.469,
+      9.755709,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8655.948,
+      22.532276,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8690.284,
+      20.675959,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8722.749,
+      7.91038,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8749.369,
+      17.125772,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8781.841,
+      18.923288,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8812.496,
+      18.922402,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8849.535,
+      16.153368,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8880.165,
+      21.576071,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8910.82,
+      18.86485,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8941.431,
+      15.320601,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      8981.142,
+      16.208369,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9021.73,
+      16.190973,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9053.259,
+      11.657549,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9080.172,
+      18.818182,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9119.603,
+      19.80517,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9150.627,
+      21.20888,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9188.106,
+      16.198264,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9218.779,
+      17.997499,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9250.053,
+      15.626124,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9281.015,
+      20.717314,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9319.784,
+      17.136658,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9358.569,
+      21.596435,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9397.175,
+      17.836976,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9427.697,
+      11.592652,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9460.087,
+      22.461912,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9493.348,
+      11.597339,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9523.878,
+      15.30508,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9550.926,
+      18.919069,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9585.181,
+      17.137439,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9615.858,
+      18.909799,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9646.503,
+      17.137439,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9684.173,
+      20.734449,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9721.191,
+      17.120252,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9755.438,
+      18.952507,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9788.872,
+      14.402573,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9823.1,
+      22.504049,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9855.46,
+      22.577122,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9888.927,
+      17.996821,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9923.215,
+      19.790535,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9958.402,
+      17.997239,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      9989.021,
+      16.277276,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10019.71,
+      18.936777,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10053.11,
+      17.999322,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10091.36,
+      20.481374,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10134.38,
+      20.720388,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10163.24,
+      23.37593,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10195.7,
+      16.211441,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10228.2,
+      14.391894,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10257.0,
+      18.044583,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10293.09,
+      18.004061,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10327.36,
+      14.415281,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10358.88,
+      15.332528,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10391.36,
+      17.126606,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10423.83,
+      11.64484,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10438.29,
+      26.063923,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10478.39,
+      22.106024,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10508.81,
+      26.066995,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10543.07,
+      24.257448,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10575.5,
+      13.515376,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10607.09,
+      21.600655,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10640.51,
+      7.905641,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10664.61,
+      16.256181,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10699.73,
+      13.440844,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10715.5,
+      22.894416,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10752.26,
+      16.686081,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10786.14,
+      7.908558,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10813.87,
+      18.003644,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10841.83,
+      19.79241,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10880.6,
+      19.796317,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10913.08,
+      14.41403,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10946.43,
+      13.494596,
+      "stereoDisparityKernel() []"
+    ],
+    [
+      10979.77,
+      14.370176,
+      "stereoDisparityKernel() []"
+    ]
+  ]
+};

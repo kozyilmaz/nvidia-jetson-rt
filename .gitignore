@@ -1,0 +1,10 @@
+*.txt
+*.csv
+*.o
+Samples/fasthog_*
+Samples/convbench_*
+*fasthog.a
+*convbench.a
+Benchmark/benchmark_*
+Benchmark/results/
+Benchmark/output.json
