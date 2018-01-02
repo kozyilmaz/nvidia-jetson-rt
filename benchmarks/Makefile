@@ -13,6 +13,7 @@ caffe_all:
 	cp caffe/Makefile.config.example caffe/Makefile.config
 	make -C caffe -j4 all
 	make -C caffe -j4 test
+	make -C runtest
 
 caffe_clean:
 	make -C caffe clean
