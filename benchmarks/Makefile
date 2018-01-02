@@ -14,7 +14,7 @@ rodinia_all:
 		patch -d rodinia -p1 < patches/gpu-rodinia.patch; \
 		touch rodinia/.patched; \
 	fi
-	mkdir -p $(CURDIR)/bin/linux/cuda
+	mkdir -p $(CURDIR)/rodinia/bin/linux/cuda
 	make -C rodinia CUDA
 
 rodinia_clean:
