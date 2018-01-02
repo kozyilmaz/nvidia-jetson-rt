@@ -26,6 +26,7 @@ Optionally you may download JetPack to extract CUDA .deb packages or download th
 ## Performance Comparison (RT & non-RT)
 Below are a selection of popular benchmark suites selected to probe different aspects of CPU/GPU hybrid systems
 * [Caffe](https://github.com/kozyilmaz/nvidia-jetson-rt/blob/master/docs/README.04-benchmarks.md#caffe) is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR)/The Berkeley Vision and Learning Center (BVLC) and community contributors
+* [Periodic Task Releaser](https://github.com/kozyilmaz/nvidia-jetson-rt/blob/master/docs/README.04-benchmarks.md#periodic-task-releaser) is a collection of CUDA programs intended to measure interference between GPU processes
 * [Mixbench](https://github.com/kozyilmaz/nvidia-jetson-rt/blob/master/docs/README.04-benchmarks.md#mixbench) is a GPU benchmark tool for evaluating GPUs on mixed operational intensity kernels (CUDA, OpenCL, HIP)
 * [Rodinia Benchmark Suite](https://github.com/kozyilmaz/nvidia-jetson-rt/blob/master/docs/README.04-benchmarks.md#rodinia) is a collection of parallel programs which targets heterogeneous computing platforms with both multicore CPUs and GPUs
 
