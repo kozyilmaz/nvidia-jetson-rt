@@ -1,0 +1,43 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Specific executables
+mixbench-cuda-alt
+mixbench-cuda-ro
+mixbench-hip-alt
+mixbench-hip-ro
+mixbench-ocl-alt
+mixbench-ocl-ro
+
+# Debug files
+*.dSYM/
+
+# Other
+version_info.h
