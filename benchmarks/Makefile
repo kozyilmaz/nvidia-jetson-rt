@@ -19,6 +19,14 @@ caffe_clean:
 	make -C caffe clean
 
 
+# periodictaskreleaser
+periodictaskreleaser_all:
+	make -C periodictaskreleaser/Benchmark
+
+periodictaskreleaser_all:
+	make -C periodictaskreleaser/Benchmark clean
+
+
 # mixbench
 mixbench_all:
 	make -C mixbench -j4 mixbench-cuda-alt mixbench-cuda-ro
