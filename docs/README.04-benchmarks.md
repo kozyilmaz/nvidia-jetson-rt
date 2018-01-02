@@ -21,10 +21,13 @@ $ git remote add caffe-remote https://github.com/BVLC/caffe
 $ git subtree pull --prefix=benchmarks/caffe/ --squash caffe-remote master
 ```
 
+#### AlexNet
 Benchmark [AlexNet](https://github.com/BVLC/caffe/tree/master/models/bvlc_alexnet) described in Google's [ImageNet Classification with Deep Convolutional Neural Networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks) paper
 ```shell
 $ caffe/build/tools/caffe time --model= caffe/models/bvlc_alexnet/deploy.prototxt -gpu 0 -iterations 30
 ```
+
+#### GoogleNet
 Benchmark [GoogleNet](https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet) described in Google's [Going Deeper with Convolutions](https://arxiv.org/abs/1409.4842) paper
 ```shell
 $ caffe/build/tools/caffe time --model=caffe/models/bvlc_googlenet/deploy.prototxt -gpu 0 -iterations 30
