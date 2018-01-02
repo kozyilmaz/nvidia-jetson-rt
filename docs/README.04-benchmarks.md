@@ -21,7 +21,7 @@ $ git remote add caffe-remote https://github.com/BVLC/caffe
 $ git subtree pull --prefix=benchmarks/caffe/ --squash caffe-remote master
 ```
 
-Query Jetson TX2 GPU
+#### NVIDIA Jetson TX2 GPU Capabilities
 ```shell
 $ caffe/build/tools/caffe device_query -gpu 0
 I0102 16:37:09.743705 19642 caffe.cpp:138] Querying GPUs 0
