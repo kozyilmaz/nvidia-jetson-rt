@@ -9,7 +9,7 @@ $ ssh nvidia@JETSON_IP_ADDRESS
 $ scp setup.txt nvidia@JETSON_IP_ADDRESS:/home/nvidia
 ```
 
-## *NOTE* Using JetPack to install CUDA, OpenCV4Tegra and cuDNN is highly recommended, please consider!
+## `Using JetPack to install CUDA, OpenCV4Tegra and cuDNN is highly recommended, manual installation may be problematic!`
 
 ## [HOST] Copy CUDA/TensorFlow packages to Jetson TX2
 ```shell
