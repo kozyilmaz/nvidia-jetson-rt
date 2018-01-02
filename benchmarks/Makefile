@@ -1,14 +1,31 @@
 
-all: mixbench_all rodinia_all
+all: caffe_all mixbench_all rodinia_all
 
-clean: mixbench_clean rodinia_clean
+clean: caffe_clean mixbench_clean rodinia_clean
 
+
+# caffe
+caffe_all:
+	if [ ! -f "caffe/.patched" ]; then \
+		patch -d caffe -p1 < patches/caffe.patch; \
+		touch caffe/.patched; \
+	fi
+	cp caffe/Makefile.config.example caffe/Makefile.config
+	make -C caffe all
+
+caffe_clean:
+	make -C caffe clean
+
+
+# mixbench
 mixbench_all:
 	make -C mixbench mixbench-cuda-alt mixbench-cuda-ro
 
 mixbench_clean:
 	make -C mixbench clean
 
+
+# rodinia
 rodinia_all:
 	if [ ! -f "rodinia/.patched" ]; then \
 		patch -d rodinia -p1 < patches/gpu-rodinia.patch; \
@@ -19,3 +36,4 @@ rodinia_all:
 
 rodinia_clean:
 	make -C rodinia CUDA_clean
+

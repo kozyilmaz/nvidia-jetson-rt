@@ -1,5 +1,30 @@
 # GPU & CPU Benchmarks
 
+## [Caffe](https://github.com/BVLC/caffe)
+Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR)/The Berkeley Vision and Learning Center (BVLC) and community contributors.
+```shell
+# install prerequisites
+$ sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libhdf5-serial-dev protobuf-compiler
+$ sudo apt-get install --no-install-recommends libboost-all-dev
+$ sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev
+# BLAS
+$ sudo apt-get install libatlas-base-dev
+
+# add caffe as subtree
+$ git remote add caffe https://github.com/BVLC/caffe
+$ git subtree add --prefix=benchmarks/caffe/ --squash caffe master
+# check caffe subtree
+$ git fetch https://github.com/BVLC/caffe master
+$ ./contrib/devtools/git-subtree-check.sh benchmarks/caffe
+# sync caffe subtree
+$ git remote add caffe-remote https://github.com/BVLC/caffe
+$ git subtree pull --prefix=benchmarks/caffe/ --squash caffe-remote master
+```
+
+https://github.com/yalue/PeriodicTaskReleaser
+https://github.com/Sarahild/CudaMemoryExperiments
+
+
 ## [Mixbench](https://github.com/ekondis/mixbench)
 A GPU benchmark tool for evaluating GPUs on mixed operational intensity kernels (CUDA, OpenCL, HIP)
 ```shell
@@ -32,20 +57,3 @@ $ git remote add rodinia-remote https://github.com/yuhc/gpu-rodinia.git
 $ git subtree pull --prefix=benchmarks/rodinia/ --squash rodinia-remote master
 ```
 
-
-## [Caffe](https://github.com/BVLC/caffe)
-```shell
-# install prerequisites
-$ sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libhdf5-serial-dev protobuf-compiler
-$ sudo apt-get install --no-install-recommends libboost-all-dev
-$ sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev
-# BLAS
-$ sudo apt-get install libatlas-base-dev
-$ git clone https://github.com/BVLC/caffe
-$ cd caffe
-$ cp Makefile.config.example Makefile.config
-$ make all
-```
-
-https://github.com/yalue/PeriodicTaskReleaser
-https://github.com/Sarahild/CudaMemoryExperiments
