@@ -21,6 +21,15 @@ $ git remote add caffe-remote https://github.com/BVLC/caffe
 $ git subtree pull --prefix=benchmarks/caffe/ --squash caffe-remote master
 ```
 
+Benchmark [AlexNet](https://github.com/BVLC/caffe/tree/master/models/bvlc_alexnet) described in Google's [ImageNet Classification with Deep Convolutional Neural Networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks) paper
+```shell
+$ caffe/build/tools/caffe time --model= caffe/models/bvlc_alexnet/deploy.prototxt -gpu 0 -iterations 30
+```
+Benchmark [GoogleNet](https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet) described in Google's [Going Deeper with Convolutions](https://arxiv.org/abs/1409.4842) paper
+```shell
+$ caffe/build/tools/caffe time --model=caffe/models/bvlc_googlenet/deploy.prototxt -gpu 0 -iterations 30
+```
+
 https://github.com/yalue/PeriodicTaskReleaser
 https://github.com/Sarahild/CudaMemoryExperiments
 
@@ -57,3 +66,4 @@ $ git remote add rodinia-remote https://github.com/yuhc/gpu-rodinia.git
 $ git subtree pull --prefix=benchmarks/rodinia/ --squash rodinia-remote master
 ```
 
+Please check [nvpmodel](http://www.jetsonhacks.com/2017/03/24/caffe-deep-learning-framework-nvidia-jetson-tx2/) and explore Max-Q, Max-P and Max-N power modes.
