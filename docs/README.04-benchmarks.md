@@ -31,3 +31,9 @@ $ ./contrib/devtools/git-subtree-check.sh benchmarks/rodinia
 $ git remote add rodinia-remote https://github.com/yuhc/gpu-rodinia.git
 $ git subtree pull --prefix=benchmarks/rodinia/ --squash rodinia-remote master
 ```
+
+
+
+https://github.com/yalue/PeriodicTaskReleaser
+https://github.com/Sarahild/CudaMemoryExperiments
+https://github.com/BVLC/caffe
