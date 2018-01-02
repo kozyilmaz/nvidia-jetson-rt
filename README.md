@@ -24,3 +24,4 @@ Optionally you may download JetPack to extract CUDA .deb packages or download th
 * [How to patch and build a real-time Jetson kernel](docs/README.03-realtime.md)
 
 ## CPU & GPU Performance Comparison (RT & non-RT)
+* [How to build and benchmark CUDA GPU's](docs/README.04-benchmarks.md)
