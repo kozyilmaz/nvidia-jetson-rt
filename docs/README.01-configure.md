@@ -9,6 +9,8 @@ $ ssh nvidia@JETSON_IP_ADDRESS
 $ scp setup.txt nvidia@JETSON_IP_ADDRESS:/home/nvidia
 ```
 
+## `Using JetPack to install CUDA, OpenCV4Tegra and cuDNN is highly recommended, manual installation may be problematic!`
+
 ## [HOST] Copy CUDA/TensorFlow packages to Jetson TX2
 ```shell
 $ scp $HOME/nvidia/jetpack_download/cuda-repo-l4t-8-0-local_8.0.84-1_arm64.deb nvidia@JETSON_IP_ADDRESS:/home/nvidia
@@ -16,7 +18,6 @@ $ scp $HOME/nvidia/jetpack_download/libcudnn6_6.0.21-1+cuda8.0_arm64.deb nvidia@
 $ scp $HOME/nvidia/jetpack_download/libcudnn6-dev_6.0.21-1+cuda8.0_arm64.deb nvidia@JETSON_IP_ADDRESS:/home/nvidia
 $ scp $HOME/nvidia/jetpack_download/libcudnn6-doc_6.0.21-1+cuda8.0_arm64.deb nvidia@JETSON_IP_ADDRESS:/home/nvidia
 $ scp $HOME/nvidia/jetpack_download/nv-gie-repo-ubuntu1604-ga-cuda8.0-trt2.1-20170614_1-1_arm64.deb nvidia@JETSON_IP_ADDRESS:/home/nvidia
-# libopencv4tegra may give a public key error on Jetson
 $ scp $HOME/nvidia/jetpack_download/libopencv4tegra-repo_2.4.13-17-g5317135_arm64_l4t-r26.deb nvidia@JETSON_IP_ADDRESS:/home/nvidia
 ```
 
@@ -34,6 +35,7 @@ $ sudo dpkg -i /home/nvidia/libcudnn6_6.0.21-1+cuda8.0_arm64.deb
 $ sudo dpkg -i /home/nvidia/libcudnn6-dev_6.0.21-1+cuda8.0_arm64.deb
 $ sudo dpkg -i /home/nvidia/libcudnn6-doc_6.0.21-1+cuda8.0_arm64.deb
 $ sudo dpkg -i /home/nvidia/nv-gie-repo-ubuntu1604-ga-cuda8.0-trt2.1-20170614_1-1_arm64.deb
+$ sudo dpkg -i /home/nvidia/libopencv4tegra-repo_2.4.13-17-g5317135_arm64_l4t-r26.deb
 $ sudo apt update
 $ sudo apt install cuda-toolkit-8.0
 $ sudo apt install tensorrt-2.1.2
