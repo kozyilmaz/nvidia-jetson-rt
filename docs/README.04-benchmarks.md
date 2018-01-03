@@ -47,7 +47,7 @@ I0102 16:37:09.751165 19642 common.cpp:200] Kernel execution timeout:      No
 #### AlexNet
 Benchmark [AlexNet](https://github.com/BVLC/caffe/tree/master/models/bvlc_alexnet) described in Google's [ImageNet Classification with Deep Convolutional Neural Networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks) paper
 ```shell
-$ caffe/build/tools/caffe time --model= caffe/models/bvlc_alexnet/deploy.prototxt -gpu 0 -iterations 200
+$ caffe/build/tools/caffe time --model=caffe/models/bvlc_alexnet/deploy.prototxt -gpu 0 -iterations 200
 ```
 
 #### GoogleNet
