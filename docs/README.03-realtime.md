@@ -74,6 +74,13 @@ $ sudo reboot
 
 ## [TARGER] Check Kernel Parameters after Reboot
 ```shell
+$ zcat /proc/config.gz |grep CONFIG_HZ
+# CONFIG_HZ_PERIODIC is not set
+# CONFIG_HZ_100 is not set
+CONFIG_HZ_250=y
+# CONFIG_HZ_300 is not set
+# CONFIG_HZ_1000 is not set
+CONFIG_HZ=250
 $ zcat /proc/config.gz |grep CONFIG_PREEMPT
 CONFIG_PREEMPT_RCU=y
 CONFIG_PREEMPT=y
