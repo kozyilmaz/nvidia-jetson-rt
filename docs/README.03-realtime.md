@@ -71,3 +71,21 @@ $ sudo cp L4T/kernel/dtb/* /boot
 $ sudo tar -xvf L4T/kernel/kernel_supplements.tbz2 -C /
 $ sudo reboot
 ```
+
+## [TARGER] Check Kernel Parameters after Reboot
+```shell
+$ zcat /proc/config.gz |grep CONFIG_PREEMPT
+CONFIG_PREEMPT_RCU=y
+CONFIG_PREEMPT=y
+CONFIG_PREEMPT_RT_BASE=y
+CONFIG_PREEMPT_LAZY=y
+# CONFIG_PREEMPT_NONE is not set
+# CONFIG_PREEMPT_VOLUNTARY is not set
+# CONFIG_PREEMPT__LL is not set
+# CONFIG_PREEMPT_RTB is not set
+CONFIG_PREEMPT_RT_FULL=y
+CONFIG_PREEMPT_COUNT=y
+# CONFIG_PREEMPT_TRACER is not set
+$ uname -a
+Linux tegra-ubuntu 4.4.38-rt49-rt #1 SMP PREEMPT RT Wed Jan 3 11:17:25 +03 2018 aarch64 aarch64 aarch64 GNU/Linux
+```
