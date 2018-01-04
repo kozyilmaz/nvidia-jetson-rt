@@ -1,7 +1,7 @@
-diff --git a/benchmarks/cudamemoryexperiments/RandomWalkExperiments/TX-max_perf.sh b/benchmarks/cudamemoryexperiments/RandomWalkExperiments/TX-max_perf.sh
+diff --git a/RandomWalkExperiments/TX-max_perf.sh b/RandomWalkExperiments/TX-max_perf.sh
 index a705344..02795af 100755
---- a/benchmarks/cudamemoryexperiments/RandomWalkExperiments/TX-max_perf.sh
-+++ b/benchmarks/cudamemoryexperiments/RandomWalkExperiments/TX-max_perf.sh
+--- a/RandomWalkExperiments/TX-max_perf.sh
++++ b/RandomWalkExperiments/TX-max_perf.sh
 @@ -1,7 +1,7 @@
  #!/bin/sh
  echo "WARNING - Must Be Run Sudo"
