@@ -36,9 +36,9 @@ echo "==============================\n"
 echo "$ caffe/build/tools/caffe device_query -gpu 0"
 caffe/build/tools/caffe device_query -gpu 0
 echo "$ caffe/build/tools/caffe time --model=caffe/models/bvlc_alexnet/deploy.prototxt -gpu 0 -iterations 200"
-#caffe/build/tools/caffe time --model=caffe/models/bvlc_alexnet/deploy.prototxt -gpu 0 -iterations 200
+caffe/build/tools/caffe time --model=caffe/models/bvlc_alexnet/deploy.prototxt -gpu 0 -iterations 200
 echo "$ caffe/build/tools/caffe time --model=caffe/models/bvlc_googlenet/deploy.prototxt -gpu 0 -iterations 200"
-#caffe/build/tools/caffe time --model=caffe/models/bvlc_googlenet/deploy.prototxt -gpu 0 -iterations 200
+caffe/build/tools/caffe time --model=caffe/models/bvlc_googlenet/deploy.prototxt -gpu 0 -iterations 200
 
 
 echo "\n=================="
@@ -60,7 +60,7 @@ cd periodictaskreleaser/Benchmark
 echo "$ sudo ./TX-max_perf.sh"
 sudo ./TX-max_perf.sh
 echo "$ ruby run_benchmarks.rb"
-#ruby run_benchmarks.rb
+ruby run_benchmarks.rb
 echo "$ cp output.json ../../$BENCHMARK_FOLDER/periodictaskreleaser/"
 cp output.json ../../$BENCHMARK_FOLDER/periodictaskreleaser/
 echo "$ tar -czvf results.tar.gz results/"
@@ -80,9 +80,12 @@ mkdir -p $BENCHMARK_FOLDER/cudamemoryexperiments
 echo "$ cd cudamemoryexperiments"
 cd cudamemoryexperiments
 echo "$ ./run_experiments.sh"
-#./run_experiments.sh
+./run_experiments.sh
 echo "$ cp *.txt  ../$BENCHMARK_FOLDER/cudamemoryexperiments/"
 cp *.txt  ../$BENCHMARK_FOLDER/cudamemoryexperiments/
 echo "$ cd ../"
 cd ../
 
+
+echo "$ tar -czvf $BENCHMARK_FOLDER.tar.gz $BENCHMARK_FOLDER"
+tar -czvf $BENCHMARK_FOLDER.tar.gz $BENCHMARK_FOLDER
