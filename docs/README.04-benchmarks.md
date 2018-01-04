@@ -149,6 +149,21 @@ $ caffe/build/tools/caffe time --model=caffe/models/bvlc_googlenet/deploy.protot
 ```
 
 
+## [Nheqminer](https://github.com/nicehash/nheqminer)
+Equihash miner for NiceHash
+```shell
+# add nheqminer as subtree
+$ git remote add nheqminer https://github.com/nicehash/nheqminer.git
+$ git subtree add --prefix=benchmarks/nheqminer/ --squash nheqminer master
+# check nheqminer subtree
+$ git fetch https://github.com/nicehash/nheqminer.git master
+$ ./contrib/devtools/git-subtree-check.sh benchmarks/nheqminer
+# sync nheqminer subtree
+$ git remote add nheqminer-remote https://github.com/nicehash/nheqminer.git
+$ git subtree pull --prefix=benchmarks/nheqminer/ --squash nheqminer-remote master
+```
+
+
 ## [Periodic Task Releaser](https://github.com/yalue/PeriodicTaskReleaser)
 This is a collection of CUDA programs intended to measure interference between GPU processes. It was created as part of ongoing research in real-time systems (see [paper](http://cs.unc.edu/~anderson/papers/ospert16.pdf)) at UNC Chapel Hill
 ```shell
@@ -174,6 +189,7 @@ $ pip install matplotlib
 # create performance test graphs
 $ python generate_plots.py
 ```
+
 
 ## [CUDA Memory Experiments](https://github.com/Sarahild/CudaMemoryExperiments)
 Simple programs that run memory experiments on CUDA, created at UNC - Chapel Hill
