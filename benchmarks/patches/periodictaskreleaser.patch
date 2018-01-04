@@ -1,0 +1,109 @@
+diff --git a/Benchmark/TX-max_perf.sh b/Benchmark/TX-max_perf.sh
+index a705344..a7b1cdd 100755
+--- a/Benchmark/TX-max_perf.sh
++++ b/Benchmark/TX-max_perf.sh
+@@ -1,7 +1,7 @@
+ #!/bin/sh
+ echo "WARNING - Must Be Run Sudo"
+ 
+-echo "WARNING - Use Only on TX1"
++echo "WARNING - Use Only on TX2"
+ 
+ echo "Turn on fan for safety"
+ echo 255 > /sys/kernel/debug/tegra_fan/target_pwm
+@@ -12,50 +12,28 @@ echo "Cores active"
+ cat /sys/devices/system/cpu/online
+ 
+ echo performance > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+-echo performance > /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor
+-echo performance > /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor
+ echo performance > /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor
++echo performance > /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor
++echo performance > /sys/devices/system/cpu/cpu5/cpufreq/scaling_governor
+ 
+-echo "Scaling governors (0, 1, 2, 3)"
++echo "Scaling governors (0, 3, 4, 5)"
+ cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+-cat /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor
+-cat /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor
+ cat /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor
++cat /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor
++cat /sys/devices/system/cpu/cpu5/cpufreq/scaling_governor
+ 
+ echo "CPU available frequencies"
+ cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies
+ 
+ cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+-cat /sys/devices/system/cpu/cpu1/cpufreq/scaling_max_freq > /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq
+-cat /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq > /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq
+ cat /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq > /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq
++cat /sys/devices/system/cpu/cpu4/cpufreq/scaling_max_freq > /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq
++cat /sys/devices/system/cpu/cpu5/cpufreq/scaling_max_freq > /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq
+ 
+-echo "CPU minimum cycle frequencies (0, 1, 2, 3)"
++echo "CPU minimum cycle frequencies (0, 3, 4, 5)"
+ cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+-cat /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq
+-cat /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq
+ cat /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq
+-
+-echo 0 > /sys/devices/system/cpu/cpuquiet/tegra_cpuquiet/enable
+-echo "Quiet enabled?"
+-cat /sys/devices/system/cpu/cpuquiet/tegra_cpuquiet/enable
+-
+-echo -1 >/proc/sys/kernel/sched_rt_runtime_us
+-echo "Throttling"
+-cat /proc/sys/kernel/sched_rt_runtime_us
+-
+-echo "GPU available clock rates (Hz):"
+-cat /sys/kernel/debug/clock/gbus/possible_rates
+-echo 844800000 > /sys/kernel/debug/clock/override.gbus/rate
+-echo 1 > /sys/kernel/debug/clock/override.gbus/state
+-echo "GPU clock rate (Hz):"
+-cat /sys/kernel/debug/clock/gbus/rate
+-
+-echo "Memory available cycle rate (Hz)"
+-cat /sys/kernel/debug/clock/emc/possible_rates
+-echo 1331200000 > /sys/kernel/debug/clock/override.emc/rate
+-echo 1 > /sys/kernel/debug/clock/override.emc/state
+-echo "Memory cycle rate (Hz)"
+-cat /sys/kernel/debug/clock/emc/rate
++cat /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq
++cat /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq
+ 
+ echo "Max Performance Settings Done"
+diff --git a/Benchmark/run_benchmarks.rb b/Benchmark/run_benchmarks.rb
+index 07ce222..068d455 100644
+--- a/Benchmark/run_benchmarks.rb
++++ b/Benchmark/run_benchmarks.rb
+@@ -17,7 +17,7 @@ DURATION = 5
+ 
+ # The device on which to run benchmarks, or -1 if no GPU should be explicitly
+ # specified (e.g. if MPS is being used)
+-CUDA_DEVICE = 1
++CUDA_DEVICE = 0
+ 
+ # Holds information about a single benchmark program
+ class Benchmark
+@@ -67,8 +67,9 @@ def run_scenario(benchmarks, log_all = true)
+   combo = combo.map{|v| v[1].to_s + "_" + v[0]}.join("_")
+   puts "Running scenario #{combo}"
+   log_directory += combo + "/"
+-  cpu_count = `nproc`.to_i
+-  cpu_core = 1
++  # instead of CPU 0,1,2,3 Jetson TX2 has 0,3,4,5
++  cpu_count = `nproc`.to_i + 2
++  cpu_core = 3
+   benchmark_count = Hash.new(1)
+   pids = []
+   to_return = []
+@@ -93,6 +94,9 @@ def run_scenario(benchmarks, log_all = true)
+       `stdbuf -oL #{benchmark.command()} > #{log_location}`
+     end
+     cpu_core = (cpu_core + 1) % cpu_count
++    if cpu_core == 1 || cpu_core == 2
++      cpu_core = 3
++    end
+     benchmark_count[benchmark] += 1
+   end
+   pids.each {|pid| Process.wait(pid)}
