@@ -77,10 +77,10 @@ $ sudo reboot
 $ zcat /proc/config.gz |grep CONFIG_HZ
 # CONFIG_HZ_PERIODIC is not set
 # CONFIG_HZ_100 is not set
-CONFIG_HZ_250=y
+# CONFIG_HZ_250 is not set
 # CONFIG_HZ_300 is not set
-# CONFIG_HZ_1000 is not set
-CONFIG_HZ=250
+CONFIG_HZ_1000=y
+CONFIG_HZ=1000
 $ zcat /proc/config.gz |grep CONFIG_PREEMPT
 CONFIG_PREEMPT_RCU=y
 CONFIG_PREEMPT=y
@@ -93,6 +93,6 @@ CONFIG_PREEMPT_LAZY=y
 CONFIG_PREEMPT_RT_FULL=y
 CONFIG_PREEMPT_COUNT=y
 # CONFIG_PREEMPT_TRACER is not set
-$ uname -a
-Linux tegra-ubuntu 4.4.38-rt49-rt #1 SMP PREEMPT RT Wed Jan 3 11:17:25 +03 2018 aarch64 aarch64 aarch64 GNU/Linux
+nvidia@tegra-ubuntu:~/devel/nvidia-jetson-rt$ uname -a
+Linux tegra-ubuntu 4.4.38-rt49-rt #1 SMP PREEMPT RT Fri Jan 5 01:04:27 +03 2018 aarch64 aarch64 aarch64 GNU/Linux
 ```
