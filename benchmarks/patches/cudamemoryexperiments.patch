@@ -1,5 +1,5 @@
 diff --git a/RandomWalkExperiments/TX-max_perf.sh b/RandomWalkExperiments/TX-max_perf.sh
-index a705344..02795af 100755
+index a705344..a7b1cdd 100755
 --- a/RandomWalkExperiments/TX-max_perf.sh
 +++ b/RandomWalkExperiments/TX-max_perf.sh
 @@ -1,7 +1,7 @@
@@ -11,7 +11,7 @@ index a705344..02795af 100755
  
  echo "Turn on fan for safety"
  echo 255 > /sys/kernel/debug/tegra_fan/target_pwm
-@@ -12,50 +12,50 @@ echo "Cores active"
+@@ -12,50 +12,28 @@ echo "Cores active"
  cat /sys/devices/system/cpu/online
  
  echo performance > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
@@ -46,39 +46,60 @@ index a705344..02795af 100755
 -cat /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq
 -cat /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq
  cat /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq
-+cat /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq
-+cat /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq
- 
+-
 -echo 0 > /sys/devices/system/cpu/cpuquiet/tegra_cpuquiet/enable
-+#echo 0 > /sys/devices/system/cpu/cpuquiet/tegra_cpuquiet/enable
- echo "Quiet enabled?"
+-echo "Quiet enabled?"
 -cat /sys/devices/system/cpu/cpuquiet/tegra_cpuquiet/enable
-+#cat /sys/devices/system/cpu/cpuquiet/tegra_cpuquiet/enable
- 
- echo -1 >/proc/sys/kernel/sched_rt_runtime_us
- echo "Throttling"
- cat /proc/sys/kernel/sched_rt_runtime_us
- 
- echo "GPU available clock rates (Hz):"
+-
+-echo -1 >/proc/sys/kernel/sched_rt_runtime_us
+-echo "Throttling"
+-cat /proc/sys/kernel/sched_rt_runtime_us
+-
+-echo "GPU available clock rates (Hz):"
 -cat /sys/kernel/debug/clock/gbus/possible_rates
 -echo 844800000 > /sys/kernel/debug/clock/override.gbus/rate
 -echo 1 > /sys/kernel/debug/clock/override.gbus/state
-+#cat /sys/kernel/debug/clock/gbus/possible_rates
-+#echo 844800000 > /sys/kernel/debug/clock/override.gbus/rate
-+#echo 1 > /sys/kernel/debug/clock/override.gbus/state
- echo "GPU clock rate (Hz):"
+-echo "GPU clock rate (Hz):"
 -cat /sys/kernel/debug/clock/gbus/rate
-+#cat /sys/kernel/debug/clock/gbus/rate
- 
- echo "Memory available cycle rate (Hz)"
+-
+-echo "Memory available cycle rate (Hz)"
 -cat /sys/kernel/debug/clock/emc/possible_rates
 -echo 1331200000 > /sys/kernel/debug/clock/override.emc/rate
 -echo 1 > /sys/kernel/debug/clock/override.emc/state
-+#cat /sys/kernel/debug/clock/emc/possible_rates
-+#echo 1331200000 > /sys/kernel/debug/clock/override.emc/rate
-+#echo 1 > /sys/kernel/debug/clock/override.emc/state
- echo "Memory cycle rate (Hz)"
+-echo "Memory cycle rate (Hz)"
 -cat /sys/kernel/debug/clock/emc/rate
-+#cat /sys/kernel/debug/clock/emc/rate
++cat /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq
++cat /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq
  
  echo "Max Performance Settings Done"
+diff --git a/run_experiments.sh b/run_experiments.sh
+index 21ffd17..1fedd24 100755
+--- a/run_experiments.sh
++++ b/run_experiments.sh
+@@ -2,20 +2,20 @@
+ 
+ sudo ./RandomWalkExperiments/TX-max_perf.sh
+ 
+-taskset -c 3 chrt -f 1 ./RandomWalkExperiments/random_walk > random_walk_tm_fifo.txt &
++taskset -c 3 ./RandomWalkExperiments/random_walk > random_walk_tm_fifo.txt &
+ #wait $!
+ 
+-taskset -c 3 chrt -f 1 ./RandomWalkExperiments/random_walk -zc > random_walk_zc_fifo.txt &
++taskset -c 3 ./RandomWalkExperiments/random_walk -zc > random_walk_zc_fifo.txt &
+ #wait $!
+ 
+-taskset -c 3 chrt -f 1 ./RandomWalkExperiments/random_walk -mm > random_walk_mm_fifo.txt &
++taskset -c 3 ./RandomWalkExperiments/random_walk -mm > random_walk_mm_fifo.txt &
+ #wait $!
+ 
+-taskset -c 3 chrt -f 1 ./InOrderWalkExperiments/inorder_walk > inorder_walk_tm_maphost.txt &
++taskset -c 3 ./InOrderWalkExperiments/inorder_walk > inorder_walk_tm_maphost.txt &
+ wait $!
+ 
+-taskset -c 3 chrt -f 1 ./InOrderWalkExperiments/inorder_walk -zc > inorder_walk_zc_maphost.txt &
++taskset -c 3 ./InOrderWalkExperiments/inorder_walk -zc > inorder_walk_zc_maphost.txt &
+ wait $!
+ 
+-taskset -c 3 chrt -f 1 ./InOrderWalkExperiments/inorder_walk -mm > inorder_walk_mm_maphost.txt &
++taskset -c 3 ./InOrderWalkExperiments/inorder_walk -mm > inorder_walk_mm_maphost.txt &
+ wait $!
