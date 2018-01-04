@@ -163,6 +163,17 @@ $ git remote add periodictaskreleaser-remote https://github.com/yalue/PeriodicT
 $ git subtree pull --prefix=benchmarks/periodictaskreleaser/ --squash periodictaskreleaser-remote master
 ```
 
+Commands below create graphs from `periodictaskreleaser` benchmarks
+```shell
+# install prerequisites
+$ sudo apt install libfreetype6-dev
+$ sudo apt install python-pip
+$ sudo apt install python-gi-cairo
+$ pip install matplotlib
+
+# create performance test graphs
+$ python generate_plots.py
+```
 
 ## [CUDA Memory Experiments](https://github.com/Sarahild/CudaMemoryExperiments)
 Simple programs that run memory experiments on CUDA, created at UNC - Chapel Hill
