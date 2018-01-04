@@ -21,9 +21,7 @@ caffe_clean:
 
 nheqminer_all:
 	( mkdir -p nheqminer-gpu; cd nheqminer-gpu; \
-		cmake -DCMAKE_INSTALL_PREFIX=${BSPINSTALL} \
-		-DCMAKE_CXX_FLAGS="-fvisibility=hidden" \
-		-DCMAKE_EXE_LINKER_FLAGS="-L/usr/local/cuda/lib" \
+		cmake -DCMAKE_EXE_LINKER_FLAGS="-L/usr/local/cuda/lib" \
 		-DUSE_CPU_TROMP=OFF -DUSE_CUDA_TROMP=OFF -DUSE_CPU_XENONCAT=OFF -DUSE_CUDA_DJEZO=ON ../nheqminer; \
 	)
 
