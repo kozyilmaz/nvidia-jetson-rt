@@ -88,3 +88,27 @@ Device 0: "NVIDIA Tegra X2"
 deviceQuery, CUDA Driver = CUDART, CUDA Driver Version = 8.0, CUDA Runtime Version = 8.0, NumDevs = 1, Device0 = NVIDIA Tegra X2
 Result = PASS
 ```
+
+#### Caffe Device Query
+```shell
+$ caffe/build/tools/caffe device_query -gpu 0
+I0102 16:37:09.743705 19642 caffe.cpp:138] Querying GPUs 0
+I0102 16:37:09.750903 19642 common.cpp:178] Device id:                     0
+I0102 16:37:09.750962 19642 common.cpp:179] Major revision number:         6
+I0102 16:37:09.750980 19642 common.cpp:180] Minor revision number:         2
+I0102 16:37:09.750993 19642 common.cpp:181] Name:                          NVIDIA Tegra X2
+I0102 16:37:09.751010 19642 common.cpp:182] Total global memory:           8232349696
+I0102 16:37:09.751026 19642 common.cpp:183] Total shared memory per block: 49152
+I0102 16:37:09.751040 19642 common.cpp:184] Total registers per block:     32768
+I0102 16:37:09.751054 19642 common.cpp:185] Warp size:                     32
+I0102 16:37:09.751063 19642 common.cpp:186] Maximum memory pitch:          2147483647
+I0102 16:37:09.751075 19642 common.cpp:187] Maximum threads per block:     1024
+I0102 16:37:09.751086 19642 common.cpp:188] Maximum dimension of block:    1024, 1024, 64
+I0102 16:37:09.751098 19642 common.cpp:191] Maximum dimension of grid:     2147483647, 65535, 65535
+I0102 16:37:09.751108 19642 common.cpp:194] Clock rate:                    1300500
+I0102 16:37:09.751121 19642 common.cpp:195] Total constant memory:         65536
+I0102 16:37:09.751132 19642 common.cpp:196] Texture alignment:             512
+I0102 16:37:09.751143 19642 common.cpp:197] Concurrent copy and execution: Yes
+I0102 16:37:09.751157 19642 common.cpp:199] Number of multiprocessors:     2
+I0102 16:37:09.751165 19642 common.cpp:200] Kernel execution timeout:      No
+```
