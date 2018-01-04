@@ -41,6 +41,16 @@ echo "$ caffe/build/tools/caffe time --model=caffe/models/bvlc_googlenet/deploy.
 #caffe/build/tools/caffe time --model=caffe/models/bvlc_googlenet/deploy.prototxt -gpu 0 -iterations 200
 
 
+echo "\n=================="
+echo "Mixbench Benchmark"
+echo "==================\n"
+mkdir -p $BENCHMARK_FOLDER/mixbench
+echo "$ mixbench/mixbench-cuda-ro > $BENCHMARK_FOLDER/mixbench/mixbench-cuda-ro.txt"
+mixbench/mixbench-cuda-ro > $BENCHMARK_FOLDER/mixbench/mixbench-cuda-ro.txt
+echo "$ mixbench/mixbench-cuda-alt > $BENCHMARK_FOLDER/mixbench/mixbench-cuda-alt.txt"
+mixbench/mixbench-cuda-alt > $BENCHMARK_FOLDER/mixbench/mixbench-cuda-alt.txt
+
+
 echo "\n================================"
 echo "Periodic Task Releaser Benchmark"
 echo "================================\n"
@@ -62,4 +72,17 @@ cp generate_plots.py ../../$BENCHMARK_FOLDER/periodictaskreleaser/
 echo "$ cd ../../"
 cd ../../
 
+
+echo "\n====================="
+echo "CUDA Memory Benchmark"
+echo "=====================\n"
+mkdir -p $BENCHMARK_FOLDER/cudamemoryexperiments
+echo "$ cd cudamemoryexperiments"
+cd cudamemoryexperiments
+echo "$ ./run_experiments.sh"
+#./run_experiments.sh
+echo "$ cp *.txt  ../$BENCHMARK_FOLDER/cudamemoryexperiments/"
+cp *.txt  ../$BENCHMARK_FOLDER/cudamemoryexperiments/
+echo "$ cd ../"
+cd ../
 
