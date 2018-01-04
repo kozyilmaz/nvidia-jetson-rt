@@ -19,6 +19,7 @@ caffe_clean:
 	make -C caffe clean
 
 
+# nheqminer
 nheqminer_all:
 	( mkdir -p nheqminer-gpu; cd nheqminer-gpu; \
 		cmake -DCMAKE_EXE_LINKER_FLAGS="-L/usr/local/cuda/lib" \
@@ -26,6 +27,8 @@ nheqminer_all:
 	)
 
 nheqminer_clean:
+	rm -rf nheqminer-gpu
+
 
 
 # periodictaskreleaser
@@ -54,6 +57,7 @@ cudamemoryexperiments_clean:
 	make -C cudamemoryexperiments/InOrderWalkExperiments clean
 	make -C cudamemoryexperiments/MemCpyExperiments clean
 	make -C cudamemoryexperiments/RandomWalkExperiments clean
+	rm -rf cudamemoryexperiments/*.txt
 
 
 # mixbench
