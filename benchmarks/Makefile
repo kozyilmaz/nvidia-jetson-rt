@@ -21,6 +21,10 @@ caffe_clean:
 
 # periodictaskreleaser
 periodictaskreleaser_all:
+	if [ ! -f "periodictaskreleaser/.patched" ]; then \
+		patch -d periodictaskreleaser -p1 < patches/periodictaskreleaser.patch; \
+		touch periodictaskreleaser/.patched; \
+	fi
 	make -C periodictaskreleaser/Benchmark -j4
 
 periodictaskreleaser_clean:
@@ -29,6 +33,10 @@ periodictaskreleaser_clean:
 
 # cudamemoryexperiments
 cudamemoryexperiments_all:
+	if [ ! -f "cudamemoryexperiments/.patched" ]; then \
+		patch -d cudamemoryexperiments -p1 < patches/cudamemoryexperiments.patch; \
+		touch cudamemoryexperiments/.patched; \
+	fi
 	make -C cudamemoryexperiments/InOrderWalkExperiments -j4
 	make -C cudamemoryexperiments/MemCpyExperiments -j4
 	make -C cudamemoryexperiments/RandomWalkExperiments -j4
