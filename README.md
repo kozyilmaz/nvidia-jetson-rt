@@ -48,3 +48,4 @@ $ make -C benchmarks clean
 ```
 
 [For details on how to build and run benchmark suites](docs/README.04-benchmarks.md)
+[For details on system caps and throttle script](docs/README.05-results.md)

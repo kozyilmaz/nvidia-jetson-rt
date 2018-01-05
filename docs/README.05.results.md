@@ -112,3 +112,47 @@ I0102 16:37:09.751143 19642 common.cpp:197] Concurrent copy and execution: Yes
 I0102 16:37:09.751157 19642 common.cpp:199] Number of multiprocessors:     2
 I0102 16:37:09.751165 19642 common.cpp:200] Kernel execution timeout:      No
 ```
+
+#### Throttle Script
+````shell
+$ cat TX-max_perf.sh 
+#!/bin/sh
+echo "WARNING - Must Be Run Sudo"
+
+echo "WARNING - Use Only on TX2"
+
+echo "Turn on fan for safety"
+echo 255 > /sys/kernel/debug/tegra_fan/target_pwm
+echo "Fan setting"
+cat /sys/kernel/debug/tegra_fan/target_pwm
+
+echo "Cores active"
+cat /sys/devices/system/cpu/online
+
+echo performance > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+echo performance > /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor
+echo performance > /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor
+echo performance > /sys/devices/system/cpu/cpu5/cpufreq/scaling_governor
+
+echo "Scaling governors (0, 3, 4, 5)"
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+cat /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor
+cat /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor
+cat /sys/devices/system/cpu/cpu5/cpufreq/scaling_governor
+
+echo "CPU available frequencies"
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies
+
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+cat /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq > /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq
+cat /sys/devices/system/cpu/cpu4/cpufreq/scaling_max_freq > /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq
+cat /sys/devices/system/cpu/cpu5/cpufreq/scaling_max_freq > /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq
+
+echo "CPU minimum cycle frequencies (0, 3, 4, 5)"
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+cat /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq
+cat /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq
+cat /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq
+
+echo "Max Performance Settings Done"
+```
