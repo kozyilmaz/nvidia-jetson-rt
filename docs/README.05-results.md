@@ -114,7 +114,7 @@ I0102 16:37:09.751165 19642 common.cpp:200] Kernel execution timeout:      No
 ```
 
 #### Throttle Script
-````shell
+```shell
 $ cat TX-max_perf.sh 
 #!/bin/sh
 echo "WARNING - Must Be Run Sudo"
